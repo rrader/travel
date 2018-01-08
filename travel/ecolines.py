@@ -4,6 +4,8 @@ import json
 import scrapy
 from datetime import datetime
 
+from travel.utils import STATES
+
 UAH = 31
 
 YEAR = 2018
@@ -17,16 +19,6 @@ BOOKING = 'https://booking.ecolines.net/search/result?locale=ru&currency={curren
 ORIGIN = '#ecolines-booking-form-origin option'
 VALUE = 'option ::attr(value)'
 PRICE = '.journey .btn-primary span:not(.btn-label) ::text'
-
-STATES = [
-    'UA',
-    'DE',
-    'LA',
-    'LI',
-    'EE',
-    'PL',
-    'SK',
-]
 
 
 class EcolinesSpider(scrapy.Spider):
