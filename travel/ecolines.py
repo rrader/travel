@@ -16,7 +16,11 @@ MONTH = 1
 ORIGIN_URL = 'https://booking.ecolines.net/ajax/origins?locale=en'
 DEST_URL = 'https://booking.ecolines.net/ajax/destinations?locale=en&origin={orig}'
 DATES_URL = 'https://booking.ecolines.net/ajax/dates?origin={orig}&destination={dest}&year={year}&month={month}'
-BOOKING = 'https://booking.ecolines.net/search/result?locale=en&currency={currency}&returnOrigin={dest}&returnDestination={orig}&returning=0&type=0&outwardOrigin={orig}&outwardDestination={dest}&outwardDate={date}&adults=1&children=0&teens=0&seniors=0'
+BOOKING = (
+    'https://booking.ecolines.net/search/result?locale=en&currency={currency}&returnOrigin={dest}&'
+    'returnDestination={orig}&returning=0&type=0&outwardOrigin={orig}&outwardDestination={dest}&'
+    'outwardDate={date}&adults=1&children=0&teens=0&seniors=0'
+)
 
 ORIGIN = '#ecolines-booking-form-origin option'
 VALUE = 'option ::attr(value)'

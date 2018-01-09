@@ -1,36 +1,41 @@
-from mpl_toolkits.basemap import Basemap
+import csv
+
 import numpy as np
+from mpl_toolkits.basemap import Basemap
 import matplotlib.pyplot as plt
 
-# create new figure, axes instances.
-fig = plt.figure()
-ax = fig.add_axes([0.1, 0.1, 0.8, 0.8])
+fig = plt.figure(figsize=(20, 20))
 
-# setup mercator map projection.
-m = Basemap(
-    llcrnrlon=-100., llcrnrlat=20., urcrnrlon=20., urcrnrlat=60.,
-    rsphere=(6378137.00, 6356752.3142),
-    resolution='l', projection='merc',
-    lat_0=40., lon_0=-20., lat_ts=20.
-)
+x1 = -25.
+x2 = 40.
+y1 = 30.
+y2 = 70.
 
-# nylat, nylon are lat/lon of New York
-nylat = 40.78
-nylon = -73.98
+m = Basemap(resolution='i', projection='merc', llcrnrlat=y1, urcrnrlat=y2, llcrnrlon=x1, urcrnrlon=x2,
+            lat_ts=(x1 + x2) / 2)
+m.drawcountries(linewidth=0.5)
+m.drawcoastlines(linewidth=0.5)
+m.drawparallels(np.arange(y1, y2, 15.), labels=[1, 0, 0, 1], color='black', dashes=[1, 0], labelstyle='+/-',
+                linewidth=0.2)  # draw parallels
+m.drawmeridians(np.arange(x1, x2, 15.), labels=[1, 0, 0, 1], color='black', dashes=[1, 0], labelstyle='+/-',
+                linewidth=0.2)  # draw meridians
+m.drawmapboundary(fill_color='#b2fffd')
+m.fillcontinents(color='#f6ffaa', lake_color='white')
 
-# lonlat, lonlon are lat/lon of London.
-lonlat = 51.53
-lonlon = 0.08
+routes = set()
+with open('wizzair.csv') as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        lat_1 = float(row['origin_lat'])
+        lon_1 = float(row['origin_lon'])
+        lat_2 = float(row['destination_lat'])
+        lon_2 = float(row['destination_lon'])
+        routes.add(((lon_1, lon_2), (lat_1, lat_2)))
 
-# draw great circle route between NY and London
-m.drawgreatcircle(nylon, nylat, lonlon, lonlat, linewidth=2, color='b')
-m.drawcoastlines()
-m.fillcontinents()
+for route in routes:
+    x, y = m(*route)
+    color = np.random.rand(3, 1)
+    color = np.append(color, [1.])
+    m.plot(x, y, linewidth=0.5, color=color)
 
-# draw parallels
-m.drawparallels(np.arange(10, 90, 20), labels=[1, 1, 0, 1])
-
-# draw meridians
-m.drawmeridians(np.arange(-180, 180, 30), labels=[1, 1, 0, 1])
-ax.set_title('Great Circle from New York to London')
 plt.show()
