@@ -1,278 +1,287 @@
-origin_airport,origin_title,origin_state,origin_lat,origin_lon,depth,download_timeout,download_slot,download_latency,destination_airport,destination_title,destination_state,price,departureDate
-SZZ,Szczecin,pl,53.5847,14.9022,1,180.0,api.ryanair.com,0.12646055221557617,WAW,Warsaw Chopin,Poland,19.0,2018-01-30T18:00:00
-SZZ,Szczecin,pl,53.5847,14.9022,1,180.0,api.ryanair.com,0.12646055221557617,STN,London Stansted,United Kingdom,39.0,2018-01-23T21:20:00
-SZZ,Szczecin,pl,53.5847,14.9022,1,180.0,api.ryanair.com,0.12646055221557617,LPL,Liverpool,United Kingdom,72.0,2018-01-25T21:25:00
-SZZ,Szczecin,pl,53.5847,14.9022,1,180.0,api.ryanair.com,0.12646055221557617,DUB,Dublin,Ireland,94.0,2018-01-30T17:35:00
-WAW,Warsaw Chopin,pl,52.1657,20.9671,1,180.0,api.ryanair.com,0.10476040840148926,SZZ,Szczecin,Poland,19.0,2018-01-30T19:40:00
-NRN,Dusseldorf Weeze,de,51.6024,6.14217,1,180.0,api.ryanair.com,0.12332653999328613,OMR,Oradea,Romania,2.99,2018-01-09T07:40:00
-NRN,Dusseldorf Weeze,de,51.6024,6.14217,1,180.0,api.ryanair.com,0.12332653999328613,TSR,Timisoara,Romania,7.99,2018-01-10T11:55:00
-NRN,Dusseldorf Weeze,de,51.6024,6.14217,1,180.0,api.ryanair.com,0.12332653999328613,BGY,Milan Bergamo,Italy,9.79,2018-01-10T10:15:00
-NRN,Dusseldorf Weeze,de,51.6024,6.14217,1,180.0,api.ryanair.com,0.12332653999328613,EDI,Edinburgh,United Kingdom,9.99,2018-01-09T07:20:00
-NRN,Dusseldorf Weeze,de,51.6024,6.14217,1,180.0,api.ryanair.com,0.12332653999328613,VDA,Eilat,Israel,9.99,2018-01-12T13:05:00
-NRN,Dusseldorf Weeze,de,51.6024,6.14217,1,180.0,api.ryanair.com,0.12332653999328613,FEZ,Fez,Morocco,9.99,2018-01-11T13:05:00
-NRN,Dusseldorf Weeze,de,51.6024,6.14217,1,180.0,api.ryanair.com,0.12332653999328613,STN,London Stansted,United Kingdom,9.99,2018-01-14T10:10:00
-NRN,Dusseldorf Weeze,de,51.6024,6.14217,1,180.0,api.ryanair.com,0.12332653999328613,INI,Nis,Serbia,9.99,2018-01-11T17:25:00
-NRN,Dusseldorf Weeze,de,51.6024,6.14217,1,180.0,api.ryanair.com,0.12332653999328613,VLC,Valencia,Spain,9.99,2018-01-10T17:00:00
-NRN,Dusseldorf Weeze,de,51.6024,6.14217,1,180.0,api.ryanair.com,0.12332653999328613,ALC,Alicante,Spain,12.99,2018-01-14T07:20:00
-NRN,Dusseldorf Weeze,de,51.6024,6.14217,1,180.0,api.ryanair.com,0.12332653999328613,AGP,Malaga,Spain,12.99,2018-01-14T15:00:00
-NRN,Dusseldorf Weeze,de,51.6024,6.14217,1,180.0,api.ryanair.com,0.12332653999328613,BRI,Bari,Italy,14.7,2018-01-15T07:00:00
-NRN,Dusseldorf Weeze,de,51.6024,6.14217,1,180.0,api.ryanair.com,0.12332653999328613,RAK,Marrakesh,Morocco,14.99,2018-01-17T14:40:00
-NRN,Dusseldorf Weeze,de,51.6024,6.14217,1,180.0,api.ryanair.com,0.12332653999328613,NDR,Nador,Morocco,16.99,2018-01-24T07:00:00
-NRN,Dusseldorf Weeze,de,51.6024,6.14217,1,180.0,api.ryanair.com,0.12332653999328613,RBA,Rabat,Morocco,16.99,2018-01-12T16:10:00
-NRN,Dusseldorf Weeze,de,51.6024,6.14217,1,180.0,api.ryanair.com,0.12332653999328613,TNG,Tangier,Morocco,16.99,2018-01-09T13:20:00
-POZ,Poznan,pl,52.421,16.8263,1,180.0,api.ryanair.com,0.12111139297485352,VDA,Eilat,Israel,33.0,2018-01-12T07:55:00
-POZ,Poznan,pl,52.421,16.8263,1,180.0,api.ryanair.com,0.12111139297485352,STN,London Stansted,United Kingdom,39.0,2018-01-23T07:00:00
-POZ,Poznan,pl,52.421,16.8263,1,180.0,api.ryanair.com,0.12111139297485352,MAD,Madrid,Spain,56.0,2018-01-15T09:55:00
-POZ,Poznan,pl,52.421,16.8263,1,180.0,api.ryanair.com,0.12111139297485352,BRS,Bristol,United Kingdom,65.0,2018-01-24T15:25:00
-POZ,Poznan,pl,52.421,16.8263,1,180.0,api.ryanair.com,0.12111139297485352,EDI,Edinburgh,United Kingdom,95.2,2018-01-22T07:00:00
-POZ,Poznan,pl,52.421,16.8263,1,180.0,api.ryanair.com,0.12111139297485352,MLA,Malta,Malta,111.2,2018-01-22T19:45:00
-POZ,Poznan,pl,52.421,16.8263,1,180.0,api.ryanair.com,0.12111139297485352,TLV,Tel Aviv,Israel,119.2,2018-01-18T15:15:00
-POZ,Poznan,pl,52.421,16.8263,1,180.0,api.ryanair.com,0.12111139297485352,LPL,Liverpool,United Kingdom,125.1,2018-01-27T10:40:00
-POZ,Poznan,pl,52.421,16.8263,1,180.0,api.ryanair.com,0.12111139297485352,ALC,Alicante,Spain,143.2,2018-01-18T12:00:00
-HAM,Hamburg,de,53.63028,9.99111,1,180.0,api.ryanair.com,0.49775099754333496,BGY,Milan Bergamo,Italy,9.79,2018-01-09T07:00:00
-HAM,Hamburg,de,53.63028,9.99111,1,180.0,api.ryanair.com,0.49775099754333496,MAN,Manchester,United Kingdom,9.99,2018-01-09T09:40:00
-HAM,Hamburg,de,53.63028,9.99111,1,180.0,api.ryanair.com,0.49775099754333496,BCN,Barcelona,Spain,12.99,2018-01-09T11:35:00
-HAM,Hamburg,de,53.63028,9.99111,1,180.0,api.ryanair.com,0.49775099754333496,STN,London Stansted,United Kingdom,12.99,2018-01-13T22:00:00
-HAM,Hamburg,de,53.63028,9.99111,1,180.0,api.ryanair.com,0.49775099754333496,AGP,Malaga,Spain,12.99,2018-01-12T14:50:00
-HAM,Hamburg,de,53.63028,9.99111,1,180.0,api.ryanair.com,0.49775099754333496,ALC,Alicante,Spain,14.99,2018-01-11T20:25:00
-HAM,Hamburg,de,53.63028,9.99111,1,180.0,api.ryanair.com,0.49775099754333496,DUB,Dublin,Ireland,14.99,2018-01-09T16:35:00
-HAM,Hamburg,de,53.63028,9.99111,1,180.0,api.ryanair.com,0.49775099754333496,MAD,Madrid,Spain,14.99,2018-01-10T16:45:00
-HAM,Hamburg,de,53.63028,9.99111,1,180.0,api.ryanair.com,0.49775099754333496,PMI,Mallorca,Spain,14.99,2018-01-09T13:00:00
-HAM,Hamburg,de,53.63028,9.99111,1,180.0,api.ryanair.com,0.49775099754333496,VLC,Valencia,Spain,14.99,2018-01-09T09:40:00
-HAM,Hamburg,de,53.63028,9.99111,1,180.0,api.ryanair.com,0.49775099754333496,OPO,Porto,Portugal,16.99,2018-01-09T19:55:00
-HAM,Hamburg,de,53.63028,9.99111,1,180.0,api.ryanair.com,0.49775099754333496,SVQ,Seville,Spain,16.99,2018-01-11T15:25:00
-HAM,Hamburg,de,53.63028,9.99111,1,180.0,api.ryanair.com,0.49775099754333496,SOF,Sofia,Bulgaria,16.99,2018-01-16T19:35:00
-HAM,Hamburg,de,53.63028,9.99111,1,180.0,api.ryanair.com,0.49775099754333496,LIS,Lisbon,Portugal,19.99,2018-01-09T20:50:00
-HAM,Hamburg,de,53.63028,9.99111,1,180.0,api.ryanair.com,0.49775099754333496,LPA,Gran Canaria,Spain,24.99,2018-01-23T13:10:00
-HAM,Hamburg,de,53.63028,9.99111,1,180.0,api.ryanair.com,0.49775099754333496,RAK,Marrakesh,Morocco,24.99,2018-01-10T06:50:00
-KRK,Krakow,pl,50.0777,19.7848,1,180.0,api.ryanair.com,0.48943161964416504,SXF,Berlin Schönefeld,Germany,19.0,2018-01-16T09:50:00
-KRK,Krakow,pl,50.0777,19.7848,1,180.0,api.ryanair.com,0.48943161964416504,NUE,Nuremberg,Germany,19.0,2018-01-15T08:50:00
-KRK,Krakow,pl,50.0777,19.7848,1,180.0,api.ryanair.com,0.48943161964416504,GDN,Gdansk,Poland,25.0,2018-01-17T19:35:00
-KRK,Krakow,pl,50.0777,19.7848,1,180.0,api.ryanair.com,0.48943161964416504,MMX,Malmo,Sweden,34.0,2018-01-11T10:00:00
-KRK,Krakow,pl,50.0777,19.7848,1,180.0,api.ryanair.com,0.48943161964416504,DTM,Dortmund,Germany,39.0,2018-01-21T06:30:00
-KRK,Krakow,pl,50.0777,19.7848,1,180.0,api.ryanair.com,0.48943161964416504,FRA,Frankfurt International,Germany,39.0,2018-01-18T13:05:00
-KRK,Krakow,pl,50.0777,19.7848,1,180.0,api.ryanair.com,0.48943161964416504,GOT,Göteborg Landvetter,Sweden,39.0,2018-01-18T19:20:00
-KRK,Krakow,pl,50.0777,19.7848,1,180.0,api.ryanair.com,0.48943161964416504,TRF,Oslo Torp,Norway,39.0,2018-01-24T12:15:00
-KRK,Krakow,pl,50.0777,19.7848,1,180.0,api.ryanair.com,0.48943161964416504,PRG,Prague,Czech Republic,39.0,2018-01-14T13:50:00
-KRK,Krakow,pl,50.0777,19.7848,1,180.0,api.ryanair.com,0.48943161964416504,NYO,Stockholm Skavsta,Sweden,39.0,2018-01-18T09:05:00
-KRK,Krakow,pl,50.0777,19.7848,1,180.0,api.ryanair.com,0.48943161964416504,GRO,Barcelona Girona,Spain,56.0,2018-01-16T17:15:00
-KRK,Krakow,pl,50.0777,19.7848,1,180.0,api.ryanair.com,0.48943161964416504,CRL,Brussels Charleroi,Belgium,56.0,2018-01-18T09:10:00
-KRK,Krakow,pl,50.0777,19.7848,1,180.0,api.ryanair.com,0.48943161964416504,EIN,Eindhoven,Netherlands,56.0,2018-01-16T16:10:00
-KRK,Krakow,pl,50.0777,19.7848,1,180.0,api.ryanair.com,0.48943161964416504,BVA,Paris Beauvais,France,56.0,2018-01-21T06:55:00
-KRK,Krakow,pl,50.0777,19.7848,1,180.0,api.ryanair.com,0.48943161964416504,PSA,Pisa,Italy,56.0,2018-01-22T21:50:00
-KRK,Krakow,pl,50.0777,19.7848,1,180.0,api.ryanair.com,0.48943161964416504,TSF,Venice Treviso,Italy,56.0,2018-01-24T15:35:00
-BRE,Bremen,de,53.0475,8.78667,1,180.0,api.ryanair.com,0.47057342529296875,VDA,Eilat,Israel,9.99,2018-01-12T06:30:00
-BRE,Bremen,de,53.0475,8.78667,1,180.0,api.ryanair.com,0.47057342529296875,FEZ,Fez,Morocco,9.99,2018-01-09T11:45:00
-BRE,Bremen,de,53.0475,8.78667,1,180.0,api.ryanair.com,0.47057342529296875,STN,London Stansted,United Kingdom,9.99,2018-01-09T21:40:00
-BRE,Bremen,de,53.0475,8.78667,1,180.0,api.ryanair.com,0.47057342529296875,AGP,Malaga,Spain,14.99,2018-01-13T10:50:00
-BRE,Bremen,de,53.0475,8.78667,1,180.0,api.ryanair.com,0.47057342529296875,VNO,Vilnius,Lithuania,14.99,2018-01-17T18:10:00
-BRE,Bremen,de,53.0475,8.78667,1,180.0,api.ryanair.com,0.47057342529296875,RIX,Riga,Latvia,16.99,2018-01-10T10:45:00
-BRE,Bremen,de,53.0475,8.78667,1,180.0,api.ryanair.com,0.47057342529296875,ALC,Alicante,Spain,25.59,2018-01-12T20:15:00
-BRE,Bremen,de,53.0475,8.78667,1,180.0,api.ryanair.com,0.47057342529296875,FUE,Fuerteventura,Spain,28.79,2018-01-28T12:10:00
-BRE,Bremen,de,53.0475,8.78667,1,180.0,api.ryanair.com,0.47057342529296875,PMI,Mallorca,Spain,36.89,2018-01-21T12:40:00
-BRE,Bremen,de,53.0475,8.78667,1,180.0,api.ryanair.com,0.47057342529296875,TFS,Tenerife South,Spain,37.59,2018-01-30T11:40:00
-HHN,Frankfurt Hahn,de,49.9487,7.26389,1,180.0,api.ryanair.com,0.53208327293396,STN,London Stansted,United Kingdom,4.99,2018-01-16T06:45:00
-HHN,Frankfurt Hahn,de,49.9487,7.26389,1,180.0,api.ryanair.com,0.53208327293396,TSF,Venice Treviso,Italy,4.99,2018-01-10T06:55:00
-HHN,Frankfurt Hahn,de,49.9487,7.26389,1,180.0,api.ryanair.com,0.53208327293396,PSA,Pisa,Italy,7.99,2018-01-09T10:25:00
-HHN,Frankfurt Hahn,de,49.9487,7.26389,1,180.0,api.ryanair.com,0.53208327293396,BRI,Bari,Italy,9.79,2018-01-09T18:50:00
-HHN,Frankfurt Hahn,de,49.9487,7.26389,1,180.0,api.ryanair.com,0.53208327293396,SUF,Lamezia,Italy,9.79,2018-01-14T21:20:00
-HHN,Frankfurt Hahn,de,49.9487,7.26389,1,180.0,api.ryanair.com,0.53208327293396,PSR,Pescara,Italy,9.79,2018-01-09T12:10:00
-HHN,Frankfurt Hahn,de,49.9487,7.26389,1,180.0,api.ryanair.com,0.53208327293396,ALC,Alicante,Spain,9.99,2018-01-10T11:30:00
-HHN,Frankfurt Hahn,de,49.9487,7.26389,1,180.0,api.ryanair.com,0.53208327293396,GRO,Barcelona Girona,Spain,9.99,2018-01-11T20:10:00
-HHN,Frankfurt Hahn,de,49.9487,7.26389,1,180.0,api.ryanair.com,0.53208327293396,VDA,Eilat,Israel,9.99,2018-01-11T08:00:00
-HHN,Frankfurt Hahn,de,49.9487,7.26389,1,180.0,api.ryanair.com,0.53208327293396,FAO,Faro,Portugal,9.99,2018-01-09T16:50:00
-HHN,Frankfurt Hahn,de,49.9487,7.26389,1,180.0,api.ryanair.com,0.53208327293396,XRY,Jerez,Spain,9.99,2018-01-11T16:35:00
-HHN,Frankfurt Hahn,de,49.9487,7.26389,1,180.0,api.ryanair.com,0.53208327293396,KIR,Kerry,Ireland,9.99,2018-01-15T10:25:00
-HHN,Frankfurt Hahn,de,49.9487,7.26389,1,180.0,api.ryanair.com,0.53208327293396,LIS,Lisbon,Portugal,9.99,2018-01-10T10:25:00
-HHN,Frankfurt Hahn,de,49.9487,7.26389,1,180.0,api.ryanair.com,0.53208327293396,AGP,Malaga,Spain,9.99,2018-01-09T07:00:00
-HHN,Frankfurt Hahn,de,49.9487,7.26389,1,180.0,api.ryanair.com,0.53208327293396,PMI,Mallorca,Spain,9.99,2018-01-10T06:30:00
-HHN,Frankfurt Hahn,de,49.9487,7.26389,1,180.0,api.ryanair.com,0.53208327293396,PDV,Plovdiv,Bulgaria,9.99,2018-01-12T17:40:00
-LEJ,Leipzig,de,51.4324,12.2416,1,180.0,api.ryanair.com,0.5065197944641113,STN,London Stansted,United Kingdom,9.99,2018-01-10T21:05:00
-FRA,Frankfurt International,de,50.02,8.3414,1,180.0,api.ryanair.com,0.5260317325592041,GLA,Glasgow,United Kingdom,9.99,2018-01-09T06:45:00
-FRA,Frankfurt International,de,50.02,8.3414,1,180.0,api.ryanair.com,0.5260317325592041,KRK,Krakow,Poland,9.99,2018-01-10T11:05:00
-FRA,Frankfurt International,de,50.02,8.3414,1,180.0,api.ryanair.com,0.5260317325592041,STN,London Stansted,United Kingdom,9.99,2018-01-24T07:00:00
-FRA,Frankfurt International,de,50.02,8.3414,1,180.0,api.ryanair.com,0.5260317325592041,MAN,Manchester,United Kingdom,9.99,2018-01-15T13:55:00
-FRA,Frankfurt International,de,50.02,8.3414,1,180.0,api.ryanair.com,0.5260317325592041,BGY,Milan Bergamo,Italy,9.99,2018-01-15T18:30:00
-FRA,Frankfurt International,de,50.02,8.3414,1,180.0,api.ryanair.com,0.5260317325592041,PSA,Pisa,Italy,9.99,2018-01-11T14:55:00
-FRA,Frankfurt International,de,50.02,8.3414,1,180.0,api.ryanair.com,0.5260317325592041,TLS,Toulouse,France,9.99,2018-01-10T14:30:00
-FRA,Frankfurt International,de,50.02,8.3414,1,180.0,api.ryanair.com,0.5260317325592041,TSF,Venice Treviso,Italy,9.99,2018-01-09T13:45:00
-FRA,Frankfurt International,de,50.02,8.3414,1,180.0,api.ryanair.com,0.5260317325592041,VLC,Valencia,Spain,12.99,2018-01-09T17:25:00
-FRA,Frankfurt International,de,50.02,8.3414,1,180.0,api.ryanair.com,0.5260317325592041,BDS,Brindisi,Italy,14.7,2018-01-09T11:30:00
-FRA,Frankfurt International,de,50.02,8.3414,1,180.0,api.ryanair.com,0.5260317325592041,FAO,Faro,Portugal,14.99,2018-01-09T15:05:00
-FRA,Frankfurt International,de,50.02,8.3414,1,180.0,api.ryanair.com,0.5260317325592041,OPO,Porto,Portugal,14.99,2018-01-09T06:30:00
-FRA,Frankfurt International,de,50.02,8.3414,1,180.0,api.ryanair.com,0.5260317325592041,BCN,Barcelona,Spain,16.99,2018-01-14T17:20:00
-FRA,Frankfurt International,de,50.02,8.3414,1,180.0,api.ryanair.com,0.5260317325592041,LIS,Lisbon,Portugal,16.99,2018-01-09T06:30:00
-FRA,Frankfurt International,de,50.02,8.3414,1,180.0,api.ryanair.com,0.5260317325592041,MAD,Madrid,Spain,16.99,2018-01-10T16:40:00
-FRA,Frankfurt International,de,50.02,8.3414,1,180.0,api.ryanair.com,0.5260317325592041,AGP,Malaga,Spain,16.99,2018-01-12T15:30:00
-GDN,Gdansk,pl,54.3776,18.4662,1,180.0,api.ryanair.com,0.11758708953857422,AAR,Aarhus,Denmark,5.0,2018-01-11T14:45:00
-GDN,Gdansk,pl,54.3776,18.4662,1,180.0,api.ryanair.com,0.11758708953857422,TRF,Oslo Torp,Norway,5.0,2018-01-17T13:00:00
-GDN,Gdansk,pl,54.3776,18.4662,1,180.0,api.ryanair.com,0.11758708953857422,NYO,Stockholm Skavsta,Sweden,19.0,2018-01-12T15:45:00
-GDN,Gdansk,pl,54.3776,18.4662,1,180.0,api.ryanair.com,0.11758708953857422,VXO,Växjö Småland,Sweden,19.0,2018-01-12T16:15:00
-GDN,Gdansk,pl,54.3776,18.4662,1,180.0,api.ryanair.com,0.11758708953857422,KRK,Krakow,Poland,25.0,2018-01-10T21:10:00
-GDN,Gdansk,pl,54.3776,18.4662,1,180.0,api.ryanair.com,0.11758708953857422,STN,London Stansted,United Kingdom,25.0,2018-01-17T07:40:00
-GDN,Gdansk,pl,54.3776,18.4662,1,180.0,api.ryanair.com,0.11758708953857422,WRO,Wroclaw,Poland,25.0,2018-01-13T16:30:00
-GDN,Gdansk,pl,54.3776,18.4662,1,180.0,api.ryanair.com,0.11758708953857422,VDA,Eilat,Israel,39.0,2018-01-11T09:35:00
-GDN,Gdansk,pl,54.3776,18.4662,1,180.0,api.ryanair.com,0.11758708953857422,BGY,Milan Bergamo,Italy,65.0,2018-01-16T09:10:00
-GDN,Gdansk,pl,54.3776,18.4662,1,180.0,api.ryanair.com,0.11758708953857422,TLV,Tel Aviv,Israel,69.0,2018-01-12T06:05:00
-GDN,Gdansk,pl,54.3776,18.4662,1,180.0,api.ryanair.com,0.11758708953857422,LBA,Leeds Bradford,United Kingdom,95.2,2018-01-24T13:10:00
-GDN,Gdansk,pl,54.3776,18.4662,1,180.0,api.ryanair.com,0.11758708953857422,MAN,Manchester,United Kingdom,111.2,2018-01-30T16:45:00
-GDN,Gdansk,pl,54.3776,18.4662,1,180.0,api.ryanair.com,0.11758708953857422,BFS,Belfast International,United Kingdom,127.2,2018-01-31T17:20:00
-RZE,Rzeszow,pl,50.11,22.019,1,180.0,api.ryanair.com,0.1184229850769043,PIK,Glasgow Prestwick,United Kingdom,39.0,2018-01-20T21:20:00
-LUZ,Lublin,pl,51.2319,22.6903,1,180.0,api.ryanair.com,0.11412787437438965,STN,London Stansted,United Kingdom,127.2,2018-01-23T21:35:00
-FKB,Karlsruhe/Baden-Baden,de,48.7794,8.0805,1,180.0,api.ryanair.com,0.15422439575195312,EDI,Edinburgh,United Kingdom,7.99,2018-01-11T18:15:00
-FKB,Karlsruhe/Baden-Baden,de,48.7794,8.0805,1,180.0,api.ryanair.com,0.15422439575195312,GRO,Barcelona Girona,Spain,9.99,2018-01-11T15:00:00
-FKB,Karlsruhe/Baden-Baden,de,48.7794,8.0805,1,180.0,api.ryanair.com,0.15422439575195312,VDA,Eilat,Israel,9.99,2018-01-12T06:45:00
-FKB,Karlsruhe/Baden-Baden,de,48.7794,8.0805,1,180.0,api.ryanair.com,0.15422439575195312,STN,London Stansted,United Kingdom,9.99,2018-01-09T13:20:00
-FKB,Karlsruhe/Baden-Baden,de,48.7794,8.0805,1,180.0,api.ryanair.com,0.15422439575195312,PMI,Mallorca,Spain,9.99,2018-01-12T16:05:00
-FKB,Karlsruhe/Baden-Baden,de,48.7794,8.0805,1,180.0,api.ryanair.com,0.15422439575195312,OPO,Porto,Portugal,9.99,2018-01-09T07:10:00
-FKB,Karlsruhe/Baden-Baden,de,48.7794,8.0805,1,180.0,api.ryanair.com,0.15422439575195312,SVQ,Seville,Spain,9.99,2018-01-11T10:00:00
-FKB,Karlsruhe/Baden-Baden,de,48.7794,8.0805,1,180.0,api.ryanair.com,0.15422439575195312,WMI,Warsaw Modlin,Poland,9.99,2018-01-12T08:15:00
-FKB,Karlsruhe/Baden-Baden,de,48.7794,8.0805,1,180.0,api.ryanair.com,0.15422439575195312,BRI,Bari,Italy,12.74,2018-01-14T18:15:00
-FKB,Karlsruhe/Baden-Baden,de,48.7794,8.0805,1,180.0,api.ryanair.com,0.15422439575195312,LIS,Lisbon,Portugal,12.99,2018-01-11T11:30:00
-FKB,Karlsruhe/Baden-Baden,de,48.7794,8.0805,1,180.0,api.ryanair.com,0.15422439575195312,AGP,Malaga,Spain,12.99,2018-01-10T06:35:00
-FKB,Karlsruhe/Baden-Baden,de,48.7794,8.0805,1,180.0,api.ryanair.com,0.15422439575195312,MLA,Malta,Malta,12.99,2018-01-15T10:20:00
-FKB,Karlsruhe/Baden-Baden,de,48.7794,8.0805,1,180.0,api.ryanair.com,0.15422439575195312,ALC,Alicante,Spain,14.99,2018-01-16T17:30:00
-FKB,Karlsruhe/Baden-Baden,de,48.7794,8.0805,1,180.0,api.ryanair.com,0.15422439575195312,SOF,Sofia,Bulgaria,14.99,2018-01-10T13:10:00
-FKB,Karlsruhe/Baden-Baden,de,48.7794,8.0805,1,180.0,api.ryanair.com,0.15422439575195312,SKG,Thessaloniki,Greece,16.99,2018-01-14T09:05:00
-FKB,Karlsruhe/Baden-Baden,de,48.7794,8.0805,1,180.0,api.ryanair.com,0.15422439575195312,TLV,Tel Aviv,Israel,28.79,2018-01-11T08:00:00
-NUE,Nuremberg,de,49.4987,11.0669,1,180.0,api.ryanair.com,0.14881658554077148,KRK,Krakow,Poland,4.99,2018-01-10T10:40:00
-NUE,Nuremberg,de,49.4987,11.0669,1,180.0,api.ryanair.com,0.14881658554077148,BRI,Bari,Italy,9.79,2018-01-12T10:40:00
-NUE,Nuremberg,de,49.4987,11.0669,1,180.0,api.ryanair.com,0.14881658554077148,BGY,Milan Bergamo,Italy,9.79,2018-01-09T12:20:00
-NUE,Nuremberg,de,49.4987,11.0669,1,180.0,api.ryanair.com,0.14881658554077148,BUD,Budapest,Hungary,9.99,2018-01-09T20:35:00
-NUE,Nuremberg,de,49.4987,11.0669,1,180.0,api.ryanair.com,0.14881658554077148,STN,London Stansted,United Kingdom,9.99,2018-01-09T06:30:00
-NUE,Nuremberg,de,49.4987,11.0669,1,180.0,api.ryanair.com,0.14881658554077148,MAN,Manchester,United Kingdom,9.99,2018-01-10T15:25:00
-NUE,Nuremberg,de,49.4987,11.0669,1,180.0,api.ryanair.com,0.14881658554077148,CIA,Rome Ciampino,Italy,12.73,2018-01-09T10:40:00
-NUE,Nuremberg,de,49.4987,11.0669,1,180.0,api.ryanair.com,0.14881658554077148,PMO,Palermo,Italy,12.74,2018-01-11T10:40:00
-NUE,Nuremberg,de,49.4987,11.0669,1,180.0,api.ryanair.com,0.14881658554077148,MAD,Madrid,Spain,12.99,2018-01-09T16:05:00
-NUE,Nuremberg,de,49.4987,11.0669,1,180.0,api.ryanair.com,0.14881658554077148,MLA,Malta,Malta,12.99,2018-01-09T20:30:00
-NUE,Nuremberg,de,49.4987,11.0669,1,180.0,api.ryanair.com,0.14881658554077148,VNO,Vilnius,Lithuania,12.99,2018-01-09T07:00:00
-NUE,Nuremberg,de,49.4987,11.0669,1,180.0,api.ryanair.com,0.14881658554077148,OPO,Porto,Portugal,14.99,2018-01-09T13:55:00
-BZG,Bydgoszcz,pl,53.0968,17.9777,1,180.0,api.ryanair.com,0.14560914039611816,LTN,London Luton,United Kingdom,39.0,2018-01-24T21:35:00
-BZG,Bydgoszcz,pl,53.0968,17.9777,1,180.0,api.ryanair.com,0.14560914039611816,STN,London Stansted,United Kingdom,39.0,2018-01-24T10:15:00
-BZG,Bydgoszcz,pl,53.0968,17.9777,1,180.0,api.ryanair.com,0.14560914039611816,BHX,Birmingham,United Kingdom,72.0,2018-01-23T10:55:00
-TLL,Tallinn,ee,59.4133,24.8328,1,180.0,api.ryanair.com,0.133148193359375,NRN,Dusseldorf Weeze,Germany,16.99,2018-01-29T21:35:00
-TLL,Tallinn,ee,59.4133,24.8328,1,180.0,api.ryanair.com,0.133148193359375,BGY,Milan Bergamo,Italy,19.6,2018-01-18T21:20:00
-TLL,Tallinn,ee,59.4133,24.8328,1,180.0,api.ryanair.com,0.133148193359375,STN,London Stansted,United Kingdom,36.79,2018-01-31T12:00:00
-CGN,Cologne,de,50.8659,7.14274,1,180.0,api.ryanair.com,0.6955609321594238,BLQ,Bologna,Italy,9.79,2018-01-15T18:55:00
-CGN,Cologne,de,50.8659,7.14274,1,180.0,api.ryanair.com,0.6955609321594238,BGY,Milan Bergamo,Italy,9.79,2018-01-09T08:45:00
-CGN,Cologne,de,50.8659,7.14274,1,180.0,api.ryanair.com,0.6955609321594238,TSF,Venice Treviso,Italy,9.79,2018-01-09T11:05:00
-CGN,Cologne,de,50.8659,7.14274,1,180.0,api.ryanair.com,0.6955609321594238,BCN,Barcelona,Spain,9.99,2018-01-09T21:25:00
-CGN,Cologne,de,50.8659,7.14274,1,180.0,api.ryanair.com,0.6955609321594238,BRS,Bristol,United Kingdom,9.99,2018-01-10T11:05:00
-CGN,Cologne,de,50.8659,7.14274,1,180.0,api.ryanair.com,0.6955609321594238,STN,London Stansted,United Kingdom,9.99,2018-01-09T21:50:00
-CGN,Cologne,de,50.8659,7.14274,1,180.0,api.ryanair.com,0.6955609321594238,MAN,Manchester,United Kingdom,9.99,2018-01-09T06:55:00
-CGN,Cologne,de,50.8659,7.14274,1,180.0,api.ryanair.com,0.6955609321594238,VIT,Vitoria (Basque Country),Spain,9.99,2018-01-12T13:55:00
-CGN,Cologne,de,50.8659,7.14274,1,180.0,api.ryanair.com,0.6955609321594238,WMI,Warsaw Modlin,Poland,9.99,2018-01-10T19:55:00
-CGN,Cologne,de,50.8659,7.14274,1,180.0,api.ryanair.com,0.6955609321594238,OPO,Porto,Portugal,12.99,2018-01-10T10:40:00
-CGN,Cologne,de,50.8659,7.14274,1,180.0,api.ryanair.com,0.6955609321594238,VLC,Valencia,Spain,12.99,2018-01-11T10:40:00
-CGN,Cologne,de,50.8659,7.14274,1,180.0,api.ryanair.com,0.6955609321594238,VNO,Vilnius,Lithuania,12.99,2018-01-10T17:30:00
-CGN,Cologne,de,50.8659,7.14274,1,180.0,api.ryanair.com,0.6955609321594238,CPH,Copenhagen,Denmark,14.99,2018-01-14T06:35:00
-CGN,Cologne,de,50.8659,7.14274,1,180.0,api.ryanair.com,0.6955609321594238,MAD,Madrid,Spain,14.99,2018-01-14T16:00:00
-CGN,Cologne,de,50.8659,7.14274,1,180.0,api.ryanair.com,0.6955609321594238,AGP,Malaga,Spain,14.99,2018-01-09T10:20:00
-CGN,Cologne,de,50.8659,7.14274,1,180.0,api.ryanair.com,0.6955609321594238,MLA,Malta,Malta,14.99,2018-01-16T10:40:00
-BTS,Bratislava,sk,48.1702,17.2127,1,180.0,api.ryanair.com,0.15804624557495117,BLQ,Bologna,Italy,9.79,2018-01-15T12:15:00
-BTS,Bratislava,sk,48.1702,17.2127,1,180.0,api.ryanair.com,0.15804624557495117,SXF,Berlin Schönefeld,Germany,9.99,2018-01-24T16:55:00
-BTS,Bratislava,sk,48.1702,17.2127,1,180.0,api.ryanair.com,0.15804624557495117,INI,Nis,Serbia,9.99,2018-01-12T14:10:00
-BTS,Bratislava,sk,48.1702,17.2127,1,180.0,api.ryanair.com,0.15804624557495117,CIA,Rome Ciampino,Italy,14.7,2018-01-16T19:55:00
-BTS,Bratislava,sk,48.1702,17.2127,1,180.0,api.ryanair.com,0.15804624557495117,BHX,Birmingham,United Kingdom,14.99,2018-01-25T20:55:00
-BTS,Bratislava,sk,48.1702,17.2127,1,180.0,api.ryanair.com,0.15804624557495117,MAN,Manchester,United Kingdom,19.99,2018-01-30T14:45:00
-BTS,Bratislava,sk,48.1702,17.2127,1,180.0,api.ryanair.com,0.15804624557495117,CRL,Brussels Charleroi,Belgium,20.79,2018-01-22T21:05:00
-BTS,Bratislava,sk,48.1702,17.2127,1,180.0,api.ryanair.com,0.15804624557495117,LBA,Leeds Bradford,United Kingdom,21.59,2018-01-19T09:55:00
-BTS,Bratislava,sk,48.1702,17.2127,1,180.0,api.ryanair.com,0.15804624557495117,GRO,Barcelona Girona,Spain,22.39,2018-01-22T14:40:00
-BTS,Bratislava,sk,48.1702,17.2127,1,180.0,api.ryanair.com,0.15804624557495117,VDA,Eilat,Israel,23.19,2018-01-25T07:45:00
-BTS,Bratislava,sk,48.1702,17.2127,1,180.0,api.ryanair.com,0.15804624557495117,BGY,Milan Bergamo,Italy,24.79,2018-01-22T12:25:00
-BTS,Bratislava,sk,48.1702,17.2127,1,180.0,api.ryanair.com,0.15804624557495117,STN,London Stansted,United Kingdom,28.79,2018-01-22T17:45:00
-BTS,Bratislava,sk,48.1702,17.2127,1,180.0,api.ryanair.com,0.15804624557495117,DUB,Dublin,Ireland,30.39,2018-01-30T06:55:00
-BTS,Bratislava,sk,48.1702,17.2127,1,180.0,api.ryanair.com,0.15804624557495117,MAD,Madrid,Spain,30.39,2018-01-15T10:35:00
-BTS,Bratislava,sk,48.1702,17.2127,1,180.0,api.ryanair.com,0.15804624557495117,ATH,Athens,Greece,39.19,2018-01-23T14:00:00
-BTS,Bratislava,sk,48.1702,17.2127,1,180.0,api.ryanair.com,0.15804624557495117,EDI,Edinburgh,United Kingdom,43.99,2018-01-25T21:45:00
-DTM,Dortmund,de,51.5183,7.61224,1,180.0,api.ryanair.com,0.11949563026428223,KRK,Krakow,Poland,4.99,2018-01-10T19:50:00
-DTM,Dortmund,de,51.5183,7.61224,1,180.0,api.ryanair.com,0.11949563026428223,STN,London Stansted,United Kingdom,9.99,2018-01-10T15:45:00
-DTM,Dortmund,de,51.5183,7.61224,1,180.0,api.ryanair.com,0.11949563026428223,OPO,Porto,Portugal,12.99,2018-01-10T15:25:00
-DTM,Dortmund,de,51.5183,7.61224,1,180.0,api.ryanair.com,0.11949563026428223,AGP,Malaga,Spain,14.99,2018-01-22T19:15:00
-DTM,Dortmund,de,51.5183,7.61224,1,180.0,api.ryanair.com,0.11949563026428223,SKG,Thessaloniki,Greece,30.39,2018-01-24T19:55:00
-DTM,Dortmund,de,51.5183,7.61224,1,180.0,api.ryanair.com,0.11949563026428223,PMI,Mallorca,Spain,61.19,2018-01-24T12:35:00
-RIX,Riga,lv,56.9236,23.9711,1,180.0,api.ryanair.com,0.1267986297607422,CRL,Brussels Charleroi,Belgium,12.99,2018-01-19T21:10:00
-RIX,Riga,lv,56.9236,23.9711,1,180.0,api.ryanair.com,0.1267986297607422,SXF,Berlin Schönefeld,Germany,14.99,2018-01-30T14:35:00
-RIX,Riga,lv,56.9236,23.9711,1,180.0,api.ryanair.com,0.1267986297607422,BRE,Bremen,Germany,21.59,2018-01-31T14:00:00
-RIX,Riga,lv,56.9236,23.9711,1,180.0,api.ryanair.com,0.1267986297607422,STN,London Stansted,United Kingdom,22.39,2018-01-30T11:20:00
-RIX,Riga,lv,56.9236,23.9711,1,180.0,api.ryanair.com,0.1267986297607422,BGY,Milan Bergamo,Italy,23.19,2018-01-30T17:10:00
-RIX,Riga,lv,56.9236,23.9711,1,180.0,api.ryanair.com,0.1267986297607422,EMA,East Midlands,United Kingdom,28.79,2018-01-31T12:10:00
-RIX,Riga,lv,56.9236,23.9711,1,180.0,api.ryanair.com,0.1267986297607422,MLA,Malta,Malta,28.79,2018-01-28T12:05:00
-RIX,Riga,lv,56.9236,23.9711,1,180.0,api.ryanair.com,0.1267986297607422,CGN,Cologne,Germany,31.99,2018-01-30T20:20:00
-RIX,Riga,lv,56.9236,23.9711,1,180.0,api.ryanair.com,0.1267986297607422,HHN,Frankfurt Hahn,Germany,31.99,2018-01-30T10:30:00
-RIX,Riga,lv,56.9236,23.9711,1,180.0,api.ryanair.com,0.1267986297607422,LBA,Leeds Bradford,United Kingdom,38.39,2018-01-25T21:05:00
-RIX,Riga,lv,56.9236,23.9711,1,180.0,api.ryanair.com,0.1267986297607422,DUB,Dublin,Ireland,112.99,2018-01-25T21:50:00
-RIX,Riga,lv,56.9236,23.9711,1,180.0,api.ryanair.com,0.1267986297607422,MAN,Manchester,United Kingdom,120.99,2018-01-28T22:35:00
-RIX,Riga,lv,56.9236,23.9711,1,180.0,api.ryanair.com,0.1267986297607422,GLA,Glasgow,United Kingdom,146.99,2018-01-13T22:15:00
-KTW,Katowice,pl,50.4743,19.08,1,180.0,api.ryanair.com,0.14703774452209473,MXP,Milan Malpensa,Italy,19.0,2018-01-17T13:10:00
-KTW,Katowice,pl,50.4743,19.08,1,180.0,api.ryanair.com,0.14703774452209473,EDI,Edinburgh,United Kingdom,56.0,2018-01-21T18:30:00
-KTW,Katowice,pl,50.4743,19.08,1,180.0,api.ryanair.com,0.14703774452209473,ATH,Athens,Greece,65.0,2018-01-11T11:25:00
-KTW,Katowice,pl,50.4743,19.08,1,180.0,api.ryanair.com,0.14703774452209473,STN,London Stansted,United Kingdom,87.2,2018-01-24T14:35:00
-LCJ,Lodz,pl,51.7219,19.3981,1,180.0,api.ryanair.com,0.12499856948852539,STN,London Stansted,United Kingdom,119.2,2018-01-31T16:05:00
-FMM,Memmingen,de,47.9888,10.2395,1,180.0,api.ryanair.com,0.15822815895080566,OMR,Oradea,Romania,2.99,2018-01-13T18:30:00
-FMM,Memmingen,de,47.9888,10.2395,1,180.0,api.ryanair.com,0.15822815895080566,STN,London Stansted,United Kingdom,9.99,2018-01-11T06:45:00
-FMM,Memmingen,de,47.9888,10.2395,1,180.0,api.ryanair.com,0.15822815895080566,PMI,Mallorca,Spain,9.99,2018-01-15T17:25:00
-FMM,Memmingen,de,47.9888,10.2395,1,180.0,api.ryanair.com,0.15822815895080566,NYO,Stockholm Skavsta,Sweden,9.99,2018-01-15T11:30:00
-FMM,Memmingen,de,47.9888,10.2395,1,180.0,api.ryanair.com,0.15822815895080566,WMI,Warsaw Modlin,Poland,9.99,2018-01-12T09:10:00
-FMM,Memmingen,de,47.9888,10.2395,1,180.0,api.ryanair.com,0.15822815895080566,SKG,Thessaloniki,Greece,12.74,2018-01-12T07:15:00
-FMM,Memmingen,de,47.9888,10.2395,1,180.0,api.ryanair.com,0.15822815895080566,FEZ,Fez,Morocco,12.99,2018-01-10T11:30:00
-FMM,Memmingen,de,47.9888,10.2395,1,180.0,api.ryanair.com,0.15822815895080566,SVQ,Seville,Spain,12.99,2018-01-12T10:10:00
-FMM,Memmingen,de,47.9888,10.2395,1,180.0,api.ryanair.com,0.15822815895080566,PMO,Palermo,Italy,14.7,2018-01-14T13:00:00
-FMM,Memmingen,de,47.9888,10.2395,1,180.0,api.ryanair.com,0.15822815895080566,FAO,Faro,Portugal,14.99,2018-01-11T18:00:00
-FMM,Memmingen,de,47.9888,10.2395,1,180.0,api.ryanair.com,0.15822815895080566,OPO,Porto,Portugal,14.99,2018-01-09T21:00:00
-FMM,Memmingen,de,47.9888,10.2395,1,180.0,api.ryanair.com,0.15822815895080566,ALC,Alicante,Spain,16.99,2018-01-14T16:45:00
-WRO,Wroclaw,pl,51.1027,16.8858,1,180.0,api.ryanair.com,0.1394505500793457,TRF,Oslo Torp,Norway,5.0,2018-01-19T19:30:00
-WRO,Wroclaw,pl,51.1027,16.8858,1,180.0,api.ryanair.com,0.1394505500793457,GDN,Gdansk,Poland,25.0,2018-01-09T09:50:00
-WRO,Wroclaw,pl,51.1027,16.8858,1,180.0,api.ryanair.com,0.1394505500793457,CRL,Brussels Charleroi,Belgium,39.0,2018-01-09T14:40:00
-WRO,Wroclaw,pl,51.1027,16.8858,1,180.0,api.ryanair.com,0.1394505500793457,STN,London Stansted,United Kingdom,39.0,2018-01-27T06:35:00
-WRO,Wroclaw,pl,51.1027,16.8858,1,180.0,api.ryanair.com,0.1394505500793457,BVA,Paris Beauvais,France,39.0,2018-01-24T19:30:00
-WRO,Wroclaw,pl,51.1027,16.8858,1,180.0,api.ryanair.com,0.1394505500793457,BLQ,Bologna,Italy,56.0,2018-01-31T13:45:00
-WRO,Wroclaw,pl,51.1027,16.8858,1,180.0,api.ryanair.com,0.1394505500793457,NAP,Naples,Italy,56.0,2018-01-26T12:35:00
-WRO,Wroclaw,pl,51.1027,16.8858,1,180.0,api.ryanair.com,0.1394505500793457,BFS,Belfast International,United Kingdom,65.0,2018-01-26T10:15:00
-WRO,Wroclaw,pl,51.1027,16.8858,1,180.0,api.ryanair.com,0.1394505500793457,EDI,Edinburgh,United Kingdom,65.0,2018-01-21T07:10:00
-WRO,Wroclaw,pl,51.1027,16.8858,1,180.0,api.ryanair.com,0.1394505500793457,MAD,Madrid,Spain,65.0,2018-01-20T19:05:00
-WRO,Wroclaw,pl,51.1027,16.8858,1,180.0,api.ryanair.com,0.1394505500793457,MLA,Malta,Malta,65.0,2018-01-23T15:55:00
-WRO,Wroclaw,pl,51.1027,16.8858,1,180.0,api.ryanair.com,0.1394505500793457,CIA,Rome Ciampino,Italy,65.0,2018-01-24T14:00:00
-WRO,Wroclaw,pl,51.1027,16.8858,1,180.0,api.ryanair.com,0.1394505500793457,BRS,Bristol,United Kingdom,72.0,2018-01-31T11:10:00
-WRO,Wroclaw,pl,51.1027,16.8858,1,180.0,api.ryanair.com,0.1394505500793457,LPL,Liverpool,United Kingdom,72.0,2018-01-30T09:40:00
-WRO,Wroclaw,pl,51.1027,16.8858,1,180.0,api.ryanair.com,0.1394505500793457,MAN,Manchester,United Kingdom,72.0,2018-01-26T06:30:00
-WRO,Wroclaw,pl,51.1027,16.8858,1,180.0,api.ryanair.com,0.1394505500793457,BGY,Milan Bergamo,Italy,72.0,2018-01-29T11:45:00
-WMI,Warsaw Modlin,pl,52.4511,20.6517,1,180.0,api.ryanair.com,0.15727782249450684,TSF,Venice Treviso,Italy,33.0,2018-01-19T10:30:00
-WMI,Warsaw Modlin,pl,52.4511,20.6517,1,180.0,api.ryanair.com,0.15727782249450684,GOT,Göteborg Landvetter,Sweden,34.0,2018-01-19T13:20:00
-WMI,Warsaw Modlin,pl,52.4511,20.6517,1,180.0,api.ryanair.com,0.15727782249450684,TRF,Oslo Torp,Norway,34.0,2018-01-23T06:40:00
-WMI,Warsaw Modlin,pl,52.4511,20.6517,1,180.0,api.ryanair.com,0.15727782249450684,NYO,Stockholm Skavsta,Sweden,34.0,2018-01-23T13:55:00
-WMI,Warsaw Modlin,pl,52.4511,20.6517,1,180.0,api.ryanair.com,0.15727782249450684,BLQ,Bologna,Italy,39.0,2018-01-29T21:40:00
-WMI,Warsaw Modlin,pl,52.4511,20.6517,1,180.0,api.ryanair.com,0.15727782249450684,CRL,Brussels Charleroi,Belgium,39.0,2018-01-16T20:40:00
-WMI,Warsaw Modlin,pl,52.4511,20.6517,1,180.0,api.ryanair.com,0.15727782249450684,CGN,Cologne,Germany,39.0,2018-01-24T22:05:00
-WMI,Warsaw Modlin,pl,52.4511,20.6517,1,180.0,api.ryanair.com,0.15727782249450684,FKB,Karlsruhe/Baden-Baden,Germany,39.0,2018-01-12T06:05:00
-WMI,Warsaw Modlin,pl,52.4511,20.6517,1,180.0,api.ryanair.com,0.15727782249450684,STN,London Stansted,United Kingdom,39.0,2018-01-24T21:40:00
-WMI,Warsaw Modlin,pl,52.4511,20.6517,1,180.0,api.ryanair.com,0.15727782249450684,FMM,Memmingen,Germany,39.0,2018-01-12T07:00:00
-WMI,Warsaw Modlin,pl,52.4511,20.6517,1,180.0,api.ryanair.com,0.15727782249450684,BGY,Milan Bergamo,Italy,39.0,2018-01-17T18:35:00
-WMI,Warsaw Modlin,pl,52.4511,20.6517,1,180.0,api.ryanair.com,0.15727782249450684,TLS,Toulouse,France,39.0,2018-01-24T07:25:00
-WMI,Warsaw Modlin,pl,52.4511,20.6517,1,180.0,api.ryanair.com,0.15727782249450684,VDA,Eilat,Israel,56.0,2018-01-21T15:05:00
-WMI,Warsaw Modlin,pl,52.4511,20.6517,1,180.0,api.ryanair.com,0.15727782249450684,NAP,Naples,Italy,56.0,2018-01-25T17:10:00
-WMI,Warsaw Modlin,pl,52.4511,20.6517,1,180.0,api.ryanair.com,0.15727782249450684,NCL,Newcastle,United Kingdom,56.0,2018-01-19T07:00:00
-WMI,Warsaw Modlin,pl,52.4511,20.6517,1,180.0,api.ryanair.com,0.15727782249450684,CIA,Rome Ciampino,Italy,56.0,2018-01-23T15:00:00
-FMM,Memmingen,de,47.9888,10.2395,1,180.0,api.ryanair.com,0.15822815895080566,AGP,Malaga,Spain,16.99,2018-01-15T12:00:00
-FMM,Memmingen,de,47.9888,10.2395,1,180.0,api.ryanair.com,0.15822815895080566,DUB,Dublin,Ireland,21.99,2018-01-13T13:15:00
-FMM,Memmingen,de,47.9888,10.2395,1,180.0,api.ryanair.com,0.15822815895080566,TFS,Tenerife South,Spain,28.99,2018-01-23T07:10:00
-MUC,Munich,de,48.3539,11.7861,1,180.0,api.ryanair.com,0.11734700202941895,DUB,Dublin,Ireland,16.99,2018-01-09T21:25:00
-SXF,Berlin Schönefeld,de,52.38,13.5225,1,180.0,api.ryanair.com,0.14351177215576172,KRK,Krakow,Poland,4.99,2018-01-09T08:10:00
-SXF,Berlin Schönefeld,de,52.38,13.5225,1,180.0,api.ryanair.com,0.14351177215576172,BLL,Billund,Denmark,7.99,2018-01-10T14:10:00
-SXF,Berlin Schönefeld,de,52.38,13.5225,1,180.0,api.ryanair.com,0.14351177215576172,BRI,Bari,Italy,9.79,2018-01-10T14:45:00
-SXF,Berlin Schönefeld,de,52.38,13.5225,1,180.0,api.ryanair.com,0.14351177215576172,BGY,Milan Bergamo,Italy,9.79,2018-01-09T06:40:00
-SXF,Berlin Schönefeld,de,52.38,13.5225,1,180.0,api.ryanair.com,0.14351177215576172,TLS,Toulouse,France,9.79,2018-01-10T10:45:00
-SXF,Berlin Schönefeld,de,52.38,13.5225,1,180.0,api.ryanair.com,0.14351177215576172,BTS,Bratislava,Slovakia,9.99,2018-01-10T15:15:00
-SXF,Berlin Schönefeld,de,52.38,13.5225,1,180.0,api.ryanair.com,0.14351177215576172,BUD,Budapest,Hungary,9.99,2018-01-09T07:15:00
-SXF,Berlin Schönefeld,de,52.38,13.5225,1,180.0,api.ryanair.com,0.14351177215576172,EMA,East Midlands,United Kingdom,9.99,2018-01-17T10:05:00
-SXF,Berlin Schönefeld,de,52.38,13.5225,1,180.0,api.ryanair.com,0.14351177215576172,VDA,Eilat,Israel,9.99,2018-01-12T12:25:00
-SXF,Berlin Schönefeld,de,52.38,13.5225,1,180.0,api.ryanair.com,0.14351177215576172,KIR,Kerry,Ireland,9.99,2018-01-21T07:45:00
-SXF,Berlin Schönefeld,de,52.38,13.5225,1,180.0,api.ryanair.com,0.14351177215576172,STN,London Stansted,United Kingdom,9.99,2018-01-16T13:50:00
-SXF,Berlin Schönefeld,de,52.38,13.5225,1,180.0,api.ryanair.com,0.14351177215576172,SOF,Sofia,Bulgaria,9.99,2018-01-09T16:35:00
-SXF,Berlin Schönefeld,de,52.38,13.5225,1,180.0,api.ryanair.com,0.14351177215576172,TSR,Timisoara,Romania,9.99,2018-01-10T17:30:00
-SXF,Berlin Schönefeld,de,52.38,13.5225,1,180.0,api.ryanair.com,0.14351177215576172,PSA,Pisa,Italy,12.74,2018-01-14T14:00:00
-SXF,Berlin Schönefeld,de,52.38,13.5225,1,180.0,api.ryanair.com,0.14351177215576172,TSF,Venice Treviso,Italy,12.74,2018-01-09T14:45:00
-SXF,Berlin Schönefeld,de,52.38,13.5225,1,180.0,api.ryanair.com,0.14351177215576172,BFS,Belfast International,United Kingdom,12.98,2018-01-28T10:45:00
-STR,Stuttgart,de,48.69,9.2219,1,180.0,api.ryanair.com,0.10769891738891602,MAN,Manchester,United Kingdom,9.99,2018-01-11T15:55:00
-STR,Stuttgart,de,48.69,9.2219,1,180.0,api.ryanair.com,0.10769891738891602,DUB,Dublin,Ireland,14.99,2018-01-09T16:15:00
-SZY,Olsztyn - Mazury,pl,53.4819,20.9378,1,180.0,api.ryanair.com,0.11898398399353027,STN,London Stansted,United Kingdom,79.2,2018-01-23T21:20:00
+origin_airport,origin_title,origin_state,origin_lat,origin_lon,destination_airport,destination_title,destination_state,destination_lat,destination_lon,departureDate,arrivalDate,price,currencyCode
+RZE,Rzeszow,PL,50.11,22.019,PIK,Glasgow Prestwick,GB,55.5094,-4.58667,2018-01-20 21:20:00+00:00,2018-01-20 23:25:00+00:00,39.0,PLN
+RZE,Rzeszow,PL,50.11,22.019,BRS,Bristol,GB,51.3827,-2.71909,2018-01-26 10:40:00+00:00,2018-01-26 12:30:00+00:00,219.0,PLN
+RZE,Rzeszow,PL,50.11,22.019,STN,London Stansted,GB,51.885,0.235,2018-01-31 21:55:00+00:00,2018-01-31 23:35:00+00:00,233.1,PLN
+RIX,Riga,LV,56.9236,23.9711,CRL,Brussels Charleroi,BE,50.4592,4.45382,2018-01-19 21:10:00+00:00,2018-01-19 22:45:00+00:00,12.99,EUR
+RIX,Riga,LV,56.9236,23.9711,SXF,Berlin Schönefeld,DE,52.38,13.5225,2018-01-30 14:35:00+00:00,2018-01-30 15:15:00+00:00,14.99,EUR
+RIX,Riga,LV,56.9236,23.9711,BRE,Bremen,DE,53.0475,8.78667,2018-01-31 14:00:00+00:00,2018-01-31 15:00:00+00:00,21.59,EUR
+RIX,Riga,LV,56.9236,23.9711,STN,London Stansted,GB,51.885,0.235,2018-01-31 11:20:00+00:00,2018-01-31 12:15:00+00:00,22.39,EUR
+RIX,Riga,LV,56.9236,23.9711,BGY,Milan Bergamo,IT,45.6739,9.70417,2018-01-25 20:45:00+00:00,2018-01-25 22:30:00+00:00,27.99,EUR
+RIX,Riga,LV,56.9236,23.9711,EMA,East Midlands,GB,52.8311,-1.32806,2018-01-31 12:10:00+00:00,2018-01-31 13:10:00+00:00,28.79,EUR
+RIX,Riga,LV,56.9236,23.9711,CGN,Cologne,DE,50.8659,7.14274,2018-01-30 20:20:00+00:00,2018-01-30 21:40:00+00:00,31.99,EUR
+RIX,Riga,LV,56.9236,23.9711,HHN,Frankfurt Hahn,DE,49.9487,7.26389,2018-01-30 10:30:00+00:00,2018-01-30 11:55:00+00:00,31.99,EUR
+RIX,Riga,LV,56.9236,23.9711,MLA,Malta,MT,35.8575,14.4775,2018-01-25 12:05:00+00:00,2018-01-25 14:50:00+00:00,34.39,EUR
+RIX,Riga,LV,56.9236,23.9711,LBA,Leeds Bradford,GB,53.8659,-1.66057,2018-01-25 21:05:00+00:00,2018-01-25 22:05:00+00:00,38.39,EUR
+RIX,Riga,LV,56.9236,23.9711,DUB,Dublin,IE,53.4213,-6.27007,2018-01-25 21:50:00+00:00,2018-01-25 23:10:00+00:00,112.99,EUR
+RIX,Riga,LV,56.9236,23.9711,MAN,Manchester,GB,53.3537,-2.27495,2018-01-28 22:35:00+00:00,2018-01-28 23:30:00+00:00,120.99,EUR
+RIX,Riga,LV,56.9236,23.9711,GLA,Glasgow,GB,55.67194,-4.43306,2018-01-13 22:15:00+00:00,2018-01-13 23:15:00+00:00,146.99,EUR
+KTW,Katowice,PL,50.4743,19.08,MXP,Milan Malpensa,IT,45.63,8.7231,2018-01-17 13:10:00+00:00,2018-01-17 15:00:00+00:00,19.0,PLN
+KTW,Katowice,PL,50.4743,19.08,EDI,Edinburgh,GB,55.95,-3.3725,2018-01-21 18:30:00+00:00,2018-01-21 20:15:00+00:00,56.0,PLN
+KTW,Katowice,PL,50.4743,19.08,ATH,Athens,GR,37.9364,23.9445,2018-01-11 11:25:00+00:00,2018-01-11 14:50:00+00:00,65.0,PLN
+KTW,Katowice,PL,50.4743,19.08,STN,London Stansted,GB,51.885,0.235,2018-01-24 14:35:00+00:00,2018-01-24 16:00:00+00:00,87.2,PLN
+KTW,Katowice,PL,50.4743,19.08,BHX,Birmingham,GB,52.4539,-1.74803,2018-01-29 20:40:00+00:00,2018-01-29 22:20:00+00:00,167.2,PLN
+LUZ,Lublin,PL,51.2319,22.6903,STN,London Stansted,GB,51.885,0.235,2018-01-23 21:35:00+00:00,2018-01-23 23:20:00+00:00,151.2,PLN
+SZY,Olsztyn - Mazury,PL,53.4819,20.9378,STN,London Stansted,GB,51.885,0.235,2018-01-23 21:20:00+00:00,2018-01-23 22:45:00+00:00,79.2,PLN
+FKB,Karlsruhe/Baden-Baden,DE,48.7794,8.0805,EDI,Edinburgh,GB,55.95,-3.3725,2018-01-11 18:15:00+00:00,2018-01-11 19:20:00+00:00,7.99,EUR
+FKB,Karlsruhe/Baden-Baden,DE,48.7794,8.0805,GRO,Barcelona Girona,ES,41.901,2.76055,2018-01-14 14:20:00+00:00,2018-01-14 16:00:00+00:00,9.99,EUR
+FKB,Karlsruhe/Baden-Baden,DE,48.7794,8.0805,VDA,Eilat,IL,29.9402,34.9358,2018-01-12 06:45:00+00:00,2018-01-12 12:05:00+00:00,9.99,EUR
+FKB,Karlsruhe/Baden-Baden,DE,48.7794,8.0805,STN,London Stansted,GB,51.885,0.235,2018-01-10 13:20:00+00:00,2018-01-10 13:50:00+00:00,9.99,EUR
+FKB,Karlsruhe/Baden-Baden,DE,48.7794,8.0805,PMI,Mallorca,ES,39.5517,2.73881,2018-01-12 16:05:00+00:00,2018-01-12 18:10:00+00:00,9.99,EUR
+FKB,Karlsruhe/Baden-Baden,DE,48.7794,8.0805,OPO,Porto,PT,41.2481,-8.68139,2018-01-12 17:10:00+00:00,2018-01-12 18:45:00+00:00,9.99,EUR
+FKB,Karlsruhe/Baden-Baden,DE,48.7794,8.0805,SVQ,Seville,ES,37.418,-5.89311,2018-01-11 10:00:00+00:00,2018-01-11 12:35:00+00:00,9.99,EUR
+FKB,Karlsruhe/Baden-Baden,DE,48.7794,8.0805,WMI,Warsaw Modlin,PL,52.4511,20.6517,2018-01-12 08:15:00+00:00,2018-01-12 10:05:00+00:00,9.99,EUR
+FKB,Karlsruhe/Baden-Baden,DE,48.7794,8.0805,BRI,Bari,IT,41.1389,16.7606,2018-01-14 18:15:00+00:00,2018-01-14 20:10:00+00:00,12.74,EUR
+FKB,Karlsruhe/Baden-Baden,DE,48.7794,8.0805,LIS,Lisbon,PT,38.7813,-9.13592,2018-01-11 11:30:00+00:00,2018-01-11 13:35:00+00:00,12.99,EUR
+FKB,Karlsruhe/Baden-Baden,DE,48.7794,8.0805,AGP,Malaga,ES,36.6749,-4.49911,2018-01-10 06:35:00+00:00,2018-01-10 09:15:00+00:00,12.99,EUR
+FKB,Karlsruhe/Baden-Baden,DE,48.7794,8.0805,MLA,Malta,MT,35.8575,14.4775,2018-01-15 10:20:00+00:00,2018-01-15 12:40:00+00:00,12.99,EUR
+FKB,Karlsruhe/Baden-Baden,DE,48.7794,8.0805,ALC,Alicante,ES,38.2822,-0.558156,2018-01-16 17:30:00+00:00,2018-01-16 19:55:00+00:00,14.99,EUR
+FKB,Karlsruhe/Baden-Baden,DE,48.7794,8.0805,SOF,Sofia,BG,42.67,23.35,2018-01-10 13:10:00+00:00,2018-01-10 16:30:00+00:00,14.99,EUR
+FKB,Karlsruhe/Baden-Baden,DE,48.7794,8.0805,SKG,Thessaloniki,GR,40.5197,22.9709,2018-01-14 09:05:00+00:00,2018-01-14 12:40:00+00:00,16.99,EUR
+FKB,Karlsruhe/Baden-Baden,DE,48.7794,8.0805,TLV,Tel Aviv,IL,32.0034,34.5258,2018-01-11 08:00:00+00:00,2018-01-11 13:10:00+00:00,28.79,EUR
+STR,Stuttgart,DE,48.69,9.2219,MAN,Manchester,GB,53.3537,-2.27495,2018-01-11 15:55:00+00:00,2018-01-11 16:50:00+00:00,9.99,EUR
+STR,Stuttgart,DE,48.69,9.2219,DUB,Dublin,IE,53.4213,-6.27007,2018-01-10 18:05:00+00:00,2018-01-10 19:20:00+00:00,14.99,EUR
+FMM,Memmingen,DE,47.9888,10.2395,OMR,Oradea,RO,47.0252991,21.9025002,2018-01-13 18:30:00+00:00,2018-01-13 21:10:00+00:00,2.99,EUR
+FMM,Memmingen,DE,47.9888,10.2395,STN,London Stansted,GB,51.885,0.235,2018-01-11 06:45:00+00:00,2018-01-11 07:35:00+00:00,9.99,EUR
+FMM,Memmingen,DE,47.9888,10.2395,PMI,Mallorca,ES,39.5517,2.73881,2018-01-15 17:25:00+00:00,2018-01-15 19:30:00+00:00,9.99,EUR
+FMM,Memmingen,DE,47.9888,10.2395,NYO,Stockholm Skavsta,SE,58.7886,16.9122,2018-01-15 11:30:00+00:00,2018-01-15 13:40:00+00:00,9.99,EUR
+FMM,Memmingen,DE,47.9888,10.2395,WMI,Warsaw Modlin,PL,52.4511,20.6517,2018-01-12 09:10:00+00:00,2018-01-12 10:55:00+00:00,9.99,EUR
+FMM,Memmingen,DE,47.9888,10.2395,SKG,Thessaloniki,GR,40.5197,22.9709,2018-01-12 07:15:00+00:00,2018-01-12 10:25:00+00:00,12.74,EUR
+FMM,Memmingen,DE,47.9888,10.2395,FEZ,Fez,MA,33.9273,-4.97796,2018-01-10 11:30:00+00:00,2018-01-10 13:40:00+00:00,12.99,EUR
+FMM,Memmingen,DE,47.9888,10.2395,SVQ,Seville,ES,37.418,-5.89311,2018-01-12 10:10:00+00:00,2018-01-12 12:55:00+00:00,12.99,EUR
+FMM,Memmingen,DE,47.9888,10.2395,PMO,Palermo,IT,38.176,13.091,2018-01-14 13:00:00+00:00,2018-01-14 14:50:00+00:00,14.7,EUR
+FMM,Memmingen,DE,47.9888,10.2395,FAO,Faro,PT,37.0144,-7.96591,2018-01-11 18:00:00+00:00,2018-01-11 20:05:00+00:00,14.99,EUR
+FMM,Memmingen,DE,47.9888,10.2395,OPO,Porto,PT,41.2481,-8.68139,2018-01-11 16:40:00+00:00,2018-01-11 18:25:00+00:00,14.99,EUR
+FMM,Memmingen,DE,47.9888,10.2395,ALC,Alicante,ES,38.2822,-0.558156,2018-01-14 16:45:00+00:00,2018-01-14 19:15:00+00:00,16.99,EUR
+FMM,Memmingen,DE,47.9888,10.2395,AGP,Malaga,ES,36.6749,-4.49911,2018-01-15 12:00:00+00:00,2018-01-15 14:55:00+00:00,16.99,EUR
+FMM,Memmingen,DE,47.9888,10.2395,DUB,Dublin,IE,53.4213,-6.27007,2018-01-13 13:15:00+00:00,2018-01-13 14:45:00+00:00,21.99,EUR
+FMM,Memmingen,DE,47.9888,10.2395,TFS,Tenerife South,ES,28.0445,-16.5725,2018-01-23 07:10:00+00:00,2018-01-23 10:55:00+00:00,28.99,EUR
+LCJ,Lodz,PL,51.7219,19.3981,STN,London Stansted,GB,51.885,0.235,2018-01-25 16:05:00+00:00,2018-01-25 17:30:00+00:00,167.2,PLN
+LCJ,Lodz,PL,51.7219,19.3981,EMA,East Midlands,GB,52.8311,-1.32806,2018-01-22 09:55:00+00:00,2018-01-22 11:25:00+00:00,233.1,PLN
+WRO,Wroclaw,PL,51.1027,16.8858,TRF,Oslo Torp,NO,59.1867,10.2586,2018-01-19 19:30:00+00:00,2018-01-19 21:25:00+00:00,5.0,PLN
+WRO,Wroclaw,PL,51.1027,16.8858,GDN,Gdansk,PL,54.3776,18.4662,2018-01-23 09:50:00+00:00,2018-01-23 10:55:00+00:00,34.0,PLN
+WRO,Wroclaw,PL,51.1027,16.8858,CRL,Brussels Charleroi,BE,50.4592,4.45382,2018-01-16 14:40:00+00:00,2018-01-16 16:35:00+00:00,39.0,PLN
+WRO,Wroclaw,PL,51.1027,16.8858,STN,London Stansted,GB,51.885,0.235,2018-01-31 18:45:00+00:00,2018-01-31 20:05:00+00:00,39.0,PLN
+WRO,Wroclaw,PL,51.1027,16.8858,BVA,Paris Beauvais,FR,49.4544,2.11278,2018-01-24 19:30:00+00:00,2018-01-24 21:35:00+00:00,39.0,PLN
+WRO,Wroclaw,PL,51.1027,16.8858,BLQ,Bologna,IT,44.5354,11.2887,2018-01-31 13:45:00+00:00,2018-01-31 15:30:00+00:00,56.0,PLN
+WRO,Wroclaw,PL,51.1027,16.8858,NAP,Naples,IT,40.5304,14.1727,2018-01-26 12:35:00+00:00,2018-01-26 14:40:00+00:00,56.0,PLN
+WRO,Wroclaw,PL,51.1027,16.8858,BFS,Belfast International,GB,54.6575,-6.2158,2018-01-26 10:15:00+00:00,2018-01-26 11:55:00+00:00,65.0,PLN
+WRO,Wroclaw,PL,51.1027,16.8858,EDI,Edinburgh,GB,55.95,-3.3725,2018-01-21 07:10:00+00:00,2018-01-21 08:35:00+00:00,65.0,PLN
+WRO,Wroclaw,PL,51.1027,16.8858,MAD,Madrid,ES,40.4936,-3.56676,2018-01-20 19:05:00+00:00,2018-01-20 22:25:00+00:00,65.0,PLN
+WRO,Wroclaw,PL,51.1027,16.8858,MLA,Malta,MT,35.8575,14.4775,2018-01-23 15:55:00+00:00,2018-01-23 18:40:00+00:00,65.0,PLN
+WRO,Wroclaw,PL,51.1027,16.8858,CIA,Rome Ciampino,IT,41.7994,12.5949,2018-01-28 10:50:00+00:00,2018-01-28 12:45:00+00:00,65.0,PLN
+WRO,Wroclaw,PL,51.1027,16.8858,BRS,Bristol,GB,51.3827,-2.71909,2018-01-31 11:10:00+00:00,2018-01-31 12:35:00+00:00,72.0,PLN
+WRO,Wroclaw,PL,51.1027,16.8858,LPL,Liverpool,GB,53.3336,-2.84972,2018-01-30 09:40:00+00:00,2018-01-30 11:10:00+00:00,72.0,PLN
+WRO,Wroclaw,PL,51.1027,16.8858,MAN,Manchester,GB,53.3537,-2.27495,2018-01-26 06:30:00+00:00,2018-01-26 08:05:00+00:00,72.0,PLN
+WRO,Wroclaw,PL,51.1027,16.8858,BGY,Milan Bergamo,IT,45.6739,9.70417,2018-01-29 11:45:00+00:00,2018-01-29 13:30:00+00:00,72.0,PLN
+WMI,Warsaw Modlin,PL,52.4511,20.6517,TSF,Venice Treviso,IT,45.6484,12.1944,2018-01-19 10:30:00+00:00,2018-01-19 12:20:00+00:00,33.0,PLN
+WMI,Warsaw Modlin,PL,52.4511,20.6517,GOT,Göteborg Landvetter,SE,57.6741,12.2925,2018-01-19 13:20:00+00:00,2018-01-19 14:55:00+00:00,34.0,PLN
+WMI,Warsaw Modlin,PL,52.4511,20.6517,TRF,Oslo Torp,NO,59.1867,10.2586,2018-01-23 06:40:00+00:00,2018-01-23 08:40:00+00:00,34.0,PLN
+WMI,Warsaw Modlin,PL,52.4511,20.6517,NYO,Stockholm Skavsta,SE,58.7886,16.9122,2018-01-23 13:55:00+00:00,2018-01-23 15:30:00+00:00,34.0,PLN
+WMI,Warsaw Modlin,PL,52.4511,20.6517,BLQ,Bologna,IT,44.5354,11.2887,2018-01-29 21:40:00+00:00,2018-01-29 23:45:00+00:00,39.0,PLN
+WMI,Warsaw Modlin,PL,52.4511,20.6517,CRL,Brussels Charleroi,BE,50.4592,4.45382,2018-01-16 20:40:00+00:00,2018-01-16 22:50:00+00:00,39.0,PLN
+WMI,Warsaw Modlin,PL,52.4511,20.6517,CGN,Cologne,DE,50.8659,7.14274,2018-01-24 22:05:00+00:00,2018-01-24 23:59:00+00:00,39.0,PLN
+WMI,Warsaw Modlin,PL,52.4511,20.6517,FKB,Karlsruhe/Baden-Baden,DE,48.7794,8.0805,2018-01-12 06:05:00+00:00,2018-01-12 07:50:00+00:00,39.0,PLN
+WMI,Warsaw Modlin,PL,52.4511,20.6517,STN,London Stansted,GB,51.885,0.235,2018-01-29 06:50:00+00:00,2018-01-29 08:30:00+00:00,39.0,PLN
+WMI,Warsaw Modlin,PL,52.4511,20.6517,FMM,Memmingen,DE,47.9888,10.2395,2018-01-12 07:00:00+00:00,2018-01-12 08:45:00+00:00,39.0,PLN
+WMI,Warsaw Modlin,PL,52.4511,20.6517,BGY,Milan Bergamo,IT,45.6739,9.70417,2018-01-17 18:35:00+00:00,2018-01-17 20:45:00+00:00,39.0,PLN
+WMI,Warsaw Modlin,PL,52.4511,20.6517,TLS,Toulouse,FR,43.6044,1.4439,2018-01-24 07:25:00+00:00,2018-01-24 10:20:00+00:00,39.0,PLN
+WMI,Warsaw Modlin,PL,52.4511,20.6517,VDA,Eilat,IL,29.9402,34.9358,2018-01-21 15:05:00+00:00,2018-01-21 20:10:00+00:00,56.0,PLN
+WMI,Warsaw Modlin,PL,52.4511,20.6517,NAP,Naples,IT,40.5304,14.1727,2018-01-25 17:10:00+00:00,2018-01-25 19:30:00+00:00,56.0,PLN
+WMI,Warsaw Modlin,PL,52.4511,20.6517,NCL,Newcastle,GB,55.0375,-1.69167,2018-01-19 07:00:00+00:00,2018-01-19 08:40:00+00:00,56.0,PLN
+WMI,Warsaw Modlin,PL,52.4511,20.6517,CIA,Rome Ciampino,IT,41.7994,12.5949,2018-01-23 15:00:00+00:00,2018-01-23 17:15:00+00:00,56.0,PLN
+SXF,Berlin Schönefeld,DE,52.38,13.5225,KRK,Krakow,PL,50.0777,19.7848,2018-01-10 07:00:00+00:00,2018-01-10 08:15:00+00:00,4.99,EUR
+SXF,Berlin Schönefeld,DE,52.38,13.5225,BLL,Billund,DK,55.7403,9.15178,2018-01-10 14:10:00+00:00,2018-01-10 15:20:00+00:00,7.99,EUR
+SXF,Berlin Schönefeld,DE,52.38,13.5225,BRI,Bari,IT,41.1389,16.7606,2018-01-10 14:45:00+00:00,2018-01-10 16:55:00+00:00,9.79,EUR
+SXF,Berlin Schönefeld,DE,52.38,13.5225,BGY,Milan Bergamo,IT,45.6739,9.70417,2018-01-10 06:40:00+00:00,2018-01-10 08:25:00+00:00,9.79,EUR
+SXF,Berlin Schönefeld,DE,52.38,13.5225,TLS,Toulouse,FR,43.6044,1.4439,2018-01-10 10:45:00+00:00,2018-01-10 13:05:00+00:00,9.79,EUR
+SXF,Berlin Schönefeld,DE,52.38,13.5225,BTS,Bratislava,SK,48.1702,17.2127,2018-01-10 15:15:00+00:00,2018-01-10 16:30:00+00:00,9.99,EUR
+SXF,Berlin Schönefeld,DE,52.38,13.5225,BUD,Budapest,HU,47.4369,19.2556,2018-01-10 06:50:00+00:00,2018-01-10 08:25:00+00:00,9.99,EUR
+SXF,Berlin Schönefeld,DE,52.38,13.5225,EMA,East Midlands,GB,52.8311,-1.32806,2018-01-17 10:05:00+00:00,2018-01-17 11:10:00+00:00,9.99,EUR
+SXF,Berlin Schönefeld,DE,52.38,13.5225,VDA,Eilat,IL,29.9402,34.9358,2018-01-12 12:25:00+00:00,2018-01-12 17:45:00+00:00,9.99,EUR
+SXF,Berlin Schönefeld,DE,52.38,13.5225,KIR,Kerry,IE,52.1809,-9.52378,2018-01-21 07:45:00+00:00,2018-01-21 09:20:00+00:00,9.99,EUR
+SXF,Berlin Schönefeld,DE,52.38,13.5225,STN,London Stansted,GB,51.885,0.235,2018-01-16 13:50:00+00:00,2018-01-16 14:45:00+00:00,9.99,EUR
+SXF,Berlin Schönefeld,DE,52.38,13.5225,SOF,Sofia,BG,42.67,23.35,2018-01-10 16:35:00+00:00,2018-01-10 19:50:00+00:00,9.99,EUR
+SXF,Berlin Schönefeld,DE,52.38,13.5225,TSR,Timisoara,RO,45.81,21.3381,2018-01-10 17:30:00+00:00,2018-01-10 20:15:00+00:00,9.99,EUR
+SXF,Berlin Schönefeld,DE,52.38,13.5225,PSA,Pisa,IT,43.6839,10.3927,2018-01-14 14:00:00+00:00,2018-01-14 15:55:00+00:00,12.74,EUR
+SXF,Berlin Schönefeld,DE,52.38,13.5225,TSF,Venice Treviso,IT,45.6484,12.1944,2018-01-10 13:30:00+00:00,2018-01-10 15:05:00+00:00,12.74,EUR
+SXF,Berlin Schönefeld,DE,52.38,13.5225,BFS,Belfast International,GB,54.6575,-6.2158,2018-01-28 10:45:00+00:00,2018-01-28 12:10:00+00:00,12.98,EUR
+HAM,Hamburg,DE,53.63028,9.99111,BGY,Milan Bergamo,IT,45.6739,9.70417,2018-01-11 10:40:00+00:00,2018-01-11 12:25:00+00:00,9.79,EUR
+HAM,Hamburg,DE,53.63028,9.99111,MAN,Manchester,GB,53.3537,-2.27495,2018-01-16 09:40:00+00:00,2018-01-16 10:25:00+00:00,9.99,EUR
+HAM,Hamburg,DE,53.63028,9.99111,BCN,Barcelona,ES,41.2971,2.07846,2018-01-14 11:05:00+00:00,2018-01-14 13:40:00+00:00,12.99,EUR
+HAM,Hamburg,DE,53.63028,9.99111,STN,London Stansted,GB,51.885,0.235,2018-01-13 22:00:00+00:00,2018-01-13 22:35:00+00:00,12.99,EUR
+HAM,Hamburg,DE,53.63028,9.99111,AGP,Malaga,ES,36.6749,-4.49911,2018-01-12 14:50:00+00:00,2018-01-12 18:15:00+00:00,12.99,EUR
+HAM,Hamburg,DE,53.63028,9.99111,ALC,Alicante,ES,38.2822,-0.558156,2018-01-11 20:25:00+00:00,2018-01-11 23:25:00+00:00,14.99,EUR
+HAM,Hamburg,DE,53.63028,9.99111,DUB,Dublin,IE,53.4213,-6.27007,2018-01-10 16:35:00+00:00,2018-01-10 17:40:00+00:00,14.99,EUR
+HAM,Hamburg,DE,53.63028,9.99111,MAD,Madrid,ES,40.4936,-3.56676,2018-01-10 16:45:00+00:00,2018-01-10 19:45:00+00:00,14.99,EUR
+HAM,Hamburg,DE,53.63028,9.99111,PMI,Mallorca,ES,39.5517,2.73881,2018-01-16 13:00:00+00:00,2018-01-16 15:45:00+00:00,14.99,EUR
+HAM,Hamburg,DE,53.63028,9.99111,VLC,Valencia,ES,39.4893,-0.481625,2018-01-11 09:40:00+00:00,2018-01-11 12:25:00+00:00,14.99,EUR
+HAM,Hamburg,DE,53.63028,9.99111,OPO,Porto,PT,41.2481,-8.68139,2018-01-11 19:55:00+00:00,2018-01-11 21:55:00+00:00,16.99,EUR
+HAM,Hamburg,DE,53.63028,9.99111,SVQ,Seville,ES,37.418,-5.89311,2018-01-11 15:25:00+00:00,2018-01-11 18:45:00+00:00,16.99,EUR
+HAM,Hamburg,DE,53.63028,9.99111,SOF,Sofia,BG,42.67,23.35,2018-01-16 19:35:00+00:00,2018-01-16 23:10:00+00:00,16.99,EUR
+HAM,Hamburg,DE,53.63028,9.99111,LIS,Lisbon,PT,38.7813,-9.13592,2018-01-13 20:50:00+00:00,2018-01-13 23:15:00+00:00,19.99,EUR
+HAM,Hamburg,DE,53.63028,9.99111,LPA,Gran Canaria,ES,27.9319,-15.3866,2018-01-23 13:10:00+00:00,2018-01-23 17:15:00+00:00,24.99,EUR
+HAM,Hamburg,DE,53.63028,9.99111,RAK,Marrakesh,MA,31.6069,-8.0363,2018-01-10 06:50:00+00:00,2018-01-10 10:00:00+00:00,24.99,EUR
+TLL,Tallinn,EE,59.4133,24.8328,BGY,Milan Bergamo,IT,45.6739,9.70417,2018-01-20 21:20:00+00:00,2018-01-20 23:10:00+00:00,19.6,EUR
+TLL,Tallinn,EE,59.4133,24.8328,NRN,Dusseldorf Weeze,DE,51.6024,6.14217,2018-01-29 21:35:00+00:00,2018-01-29 23:05:00+00:00,26.39,EUR
+TLL,Tallinn,EE,59.4133,24.8328,STN,London Stansted,GB,51.885,0.235,2018-01-31 12:00:00+00:00,2018-01-31 12:50:00+00:00,36.79,EUR
+BZG,Bydgoszcz,PL,53.0968,17.9777,LTN,London Luton,GB,51.8747,-0.368333,2018-01-24 21:35:00+00:00,2018-01-24 22:45:00+00:00,39.0,PLN
+BZG,Bydgoszcz,PL,53.0968,17.9777,STN,London Stansted,GB,51.885,0.235,2018-01-25 10:15:00+00:00,2018-01-25 11:25:00+00:00,39.0,PLN
+BZG,Bydgoszcz,PL,53.0968,17.9777,BHX,Birmingham,GB,52.4539,-1.74803,2018-01-23 10:55:00+00:00,2018-01-23 12:20:00+00:00,72.0,PLN
+BZG,Bydgoszcz,PL,53.0968,17.9777,DUB,Dublin,IE,53.4213,-6.27007,2018-01-28 13:30:00+00:00,2018-01-28 15:10:00+00:00,259.0,PLN
+BTS,Bratislava,SK,48.1702,17.2127,BLQ,Bologna,IT,44.5354,11.2887,2018-01-15 12:15:00+00:00,2018-01-15 13:40:00+00:00,9.79,EUR
+BTS,Bratislava,SK,48.1702,17.2127,SXF,Berlin Schönefeld,DE,52.38,13.5225,2018-01-24 16:55:00+00:00,2018-01-24 18:15:00+00:00,9.99,EUR
+BTS,Bratislava,SK,48.1702,17.2127,INI,Nis,RS,43.3372,21.8536,2018-01-15 14:10:00+00:00,2018-01-15 15:40:00+00:00,9.99,EUR
+BTS,Bratislava,SK,48.1702,17.2127,CIA,Rome Ciampino,IT,41.7994,12.5949,2018-01-16 19:55:00+00:00,2018-01-16 21:35:00+00:00,14.7,EUR
+BTS,Bratislava,SK,48.1702,17.2127,BHX,Birmingham,GB,52.4539,-1.74803,2018-01-25 20:55:00+00:00,2018-01-25 22:30:00+00:00,14.99,EUR
+BTS,Bratislava,SK,48.1702,17.2127,MAN,Manchester,GB,53.3537,-2.27495,2018-01-30 14:45:00+00:00,2018-01-30 16:25:00+00:00,19.99,EUR
+BTS,Bratislava,SK,48.1702,17.2127,CRL,Brussels Charleroi,BE,50.4592,4.45382,2018-01-22 21:05:00+00:00,2018-01-22 22:55:00+00:00,20.79,EUR
+BTS,Bratislava,SK,48.1702,17.2127,LBA,Leeds Bradford,GB,53.8659,-1.66057,2018-01-19 09:55:00+00:00,2018-01-19 11:30:00+00:00,21.59,EUR
+BTS,Bratislava,SK,48.1702,17.2127,GRO,Barcelona Girona,ES,41.901,2.76055,2018-01-22 14:40:00+00:00,2018-01-22 17:00:00+00:00,22.39,EUR
+BTS,Bratislava,SK,48.1702,17.2127,VDA,Eilat,IL,29.9402,34.9358,2018-01-11 07:45:00+00:00,2018-01-11 12:30:00+00:00,23.19,EUR
+BTS,Bratislava,SK,48.1702,17.2127,STN,London Stansted,GB,51.885,0.235,2018-01-27 06:50:00+00:00,2018-01-27 08:15:00+00:00,23.99,EUR
+BTS,Bratislava,SK,48.1702,17.2127,BGY,Milan Bergamo,IT,45.6739,9.70417,2018-01-22 12:25:00+00:00,2018-01-22 13:55:00+00:00,24.79,EUR
+BTS,Bratislava,SK,48.1702,17.2127,DUB,Dublin,IE,53.4213,-6.27007,2018-01-30 06:55:00+00:00,2018-01-30 08:55:00+00:00,30.39,EUR
+BTS,Bratislava,SK,48.1702,17.2127,MAD,Madrid,ES,40.4936,-3.56676,2018-01-15 10:35:00+00:00,2018-01-15 13:45:00+00:00,30.39,EUR
+BTS,Bratislava,SK,48.1702,17.2127,EDI,Edinburgh,GB,55.95,-3.3725,2018-01-25 21:45:00+00:00,2018-01-25 23:35:00+00:00,36.79,EUR
+BTS,Bratislava,SK,48.1702,17.2127,ATH,Athens,GR,37.9364,23.9445,2018-01-16 14:00:00+00:00,2018-01-16 17:10:00+00:00,39.19,EUR
+DTM,Dortmund,DE,51.5183,7.61224,KRK,Krakow,PL,50.0777,19.7848,2018-01-10 19:50:00+00:00,2018-01-10 21:25:00+00:00,4.99,EUR
+DTM,Dortmund,DE,51.5183,7.61224,STN,London Stansted,GB,51.885,0.235,2018-01-10 15:45:00+00:00,2018-01-10 16:10:00+00:00,9.99,EUR
+DTM,Dortmund,DE,51.5183,7.61224,OPO,Porto,PT,41.2481,-8.68139,2018-01-10 15:25:00+00:00,2018-01-10 17:05:00+00:00,12.99,EUR
+DTM,Dortmund,DE,51.5183,7.61224,AGP,Malaga,ES,36.6749,-4.49911,2018-01-22 19:15:00+00:00,2018-01-22 22:20:00+00:00,14.99,EUR
+DTM,Dortmund,DE,51.5183,7.61224,SKG,Thessaloniki,GR,40.5197,22.9709,2018-01-24 19:55:00+00:00,2018-01-24 23:40:00+00:00,30.39,EUR
+DTM,Dortmund,DE,51.5183,7.61224,PMI,Mallorca,ES,39.5517,2.73881,2018-01-24 12:35:00+00:00,2018-01-24 14:55:00+00:00,79.99,EUR
+NUE,Nuremberg,DE,49.4987,11.0669,KRK,Krakow,PL,50.0777,19.7848,2018-01-10 10:40:00+00:00,2018-01-10 12:10:00+00:00,4.99,EUR
+NUE,Nuremberg,DE,49.4987,11.0669,BRI,Bari,IT,41.1389,16.7606,2018-01-12 10:40:00+00:00,2018-01-12 12:35:00+00:00,9.79,EUR
+NUE,Nuremberg,DE,49.4987,11.0669,BGY,Milan Bergamo,IT,45.6739,9.70417,2018-01-10 07:20:00+00:00,2018-01-10 08:35:00+00:00,9.79,EUR
+NUE,Nuremberg,DE,49.4987,11.0669,BUD,Budapest,HU,47.4369,19.2556,2018-01-10 20:35:00+00:00,2018-01-10 22:05:00+00:00,9.99,EUR
+NUE,Nuremberg,DE,49.4987,11.0669,STN,London Stansted,GB,51.885,0.235,2018-01-10 06:30:00+00:00,2018-01-10 07:10:00+00:00,9.99,EUR
+NUE,Nuremberg,DE,49.4987,11.0669,MAN,Manchester,GB,53.3537,-2.27495,2018-01-10 15:25:00+00:00,2018-01-10 16:25:00+00:00,9.99,EUR
+NUE,Nuremberg,DE,49.4987,11.0669,CIA,Rome Ciampino,IT,41.7994,12.5949,2018-01-11 10:40:00+00:00,2018-01-11 12:25:00+00:00,12.73,EUR
+NUE,Nuremberg,DE,49.4987,11.0669,PMO,Palermo,IT,38.176,13.091,2018-01-11 10:40:00+00:00,2018-01-11 12:50:00+00:00,12.74,EUR
+NUE,Nuremberg,DE,49.4987,11.0669,MAD,Madrid,ES,40.4936,-3.56676,2018-01-14 16:05:00+00:00,2018-01-14 18:35:00+00:00,12.99,EUR
+NUE,Nuremberg,DE,49.4987,11.0669,MLA,Malta,MT,35.8575,14.4775,2018-01-16 20:30:00+00:00,2018-01-16 23:00:00+00:00,12.99,EUR
+NUE,Nuremberg,DE,49.4987,11.0669,VNO,Vilnius,LT,54.6341,25.2858,2018-01-13 07:00:00+00:00,2018-01-13 10:00:00+00:00,12.99,EUR
+NUE,Nuremberg,DE,49.4987,11.0669,OPO,Porto,PT,41.2481,-8.68139,2018-01-16 13:55:00+00:00,2018-01-16 15:45:00+00:00,14.99,EUR
+SZZ,Szczecin,PL,53.5847,14.9022,STN,London Stansted,GB,51.885,0.235,2018-01-23 21:20:00+00:00,2018-01-23 22:15:00+00:00,39.0,PLN
+SZZ,Szczecin,PL,53.5847,14.9022,WAW,Warsaw Chopin,PL,52.1657,20.9671,2018-01-17 18:00:00+00:00,2018-01-17 19:15:00+00:00,68.26,PLN
+SZZ,Szczecin,PL,53.5847,14.9022,LPL,Liverpool,GB,53.3336,-2.84972,2018-01-25 21:25:00+00:00,2018-01-25 22:35:00+00:00,72.0,PLN
+SZZ,Szczecin,PL,53.5847,14.9022,DUB,Dublin,IE,53.4213,-6.27007,2018-01-30 17:35:00+00:00,2018-01-30 19:00:00+00:00,94.0,PLN
+MUC,Munich,DE,48.3539,11.7861,DUB,Dublin,IE,53.4213,-6.27007,2018-01-10 21:25:00+00:00,2018-01-10 22:55:00+00:00,16.99,EUR
+CGN,Cologne,DE,50.8659,7.14274,BLQ,Bologna,IT,44.5354,11.2887,2018-01-15 18:55:00+00:00,2018-01-15 20:35:00+00:00,9.79,EUR
+CGN,Cologne,DE,50.8659,7.14274,BGY,Milan Bergamo,IT,45.6739,9.70417,2018-01-10 17:10:00+00:00,2018-01-10 18:35:00+00:00,9.79,EUR
+CGN,Cologne,DE,50.8659,7.14274,TSF,Venice Treviso,IT,45.6484,12.1944,2018-01-13 11:05:00+00:00,2018-01-13 12:35:00+00:00,9.79,EUR
+CGN,Cologne,DE,50.8659,7.14274,BCN,Barcelona,ES,41.2971,2.07846,2018-01-15 21:25:00+00:00,2018-01-15 23:50:00+00:00,9.99,EUR
+CGN,Cologne,DE,50.8659,7.14274,BRS,Bristol,GB,51.3827,-2.71909,2018-01-10 11:05:00+00:00,2018-01-10 11:45:00+00:00,9.99,EUR
+CGN,Cologne,DE,50.8659,7.14274,STN,London Stansted,GB,51.885,0.235,2018-01-10 21:50:00+00:00,2018-01-10 22:10:00+00:00,9.99,EUR
+CGN,Cologne,DE,50.8659,7.14274,MAN,Manchester,GB,53.3537,-2.27495,2018-01-10 06:55:00+00:00,2018-01-10 07:35:00+00:00,9.99,EUR
+CGN,Cologne,DE,50.8659,7.14274,VIT,Vitoria (Basque Country),ES,42.8828,-2.7244,2018-01-12 13:55:00+00:00,2018-01-12 16:00:00+00:00,9.99,EUR
+CGN,Cologne,DE,50.8659,7.14274,WMI,Warsaw Modlin,PL,52.4511,20.6517,2018-01-10 19:55:00+00:00,2018-01-10 21:40:00+00:00,9.99,EUR
+CGN,Cologne,DE,50.8659,7.14274,OPO,Porto,PT,41.2481,-8.68139,2018-01-10 10:40:00+00:00,2018-01-10 12:20:00+00:00,12.99,EUR
+CGN,Cologne,DE,50.8659,7.14274,VLC,Valencia,ES,39.4893,-0.481625,2018-01-11 10:40:00+00:00,2018-01-11 13:05:00+00:00,12.99,EUR
+CGN,Cologne,DE,50.8659,7.14274,VNO,Vilnius,LT,54.6341,25.2858,2018-01-10 17:30:00+00:00,2018-01-10 20:40:00+00:00,12.99,EUR
+CGN,Cologne,DE,50.8659,7.14274,CPH,Copenhagen,DK,55.6181,12.6561,2018-01-14 06:35:00+00:00,2018-01-14 08:05:00+00:00,14.99,EUR
+CGN,Cologne,DE,50.8659,7.14274,MAD,Madrid,ES,40.4936,-3.56676,2018-01-14 16:00:00+00:00,2018-01-14 18:40:00+00:00,14.99,EUR
+CGN,Cologne,DE,50.8659,7.14274,AGP,Malaga,ES,36.6749,-4.49911,2018-01-14 10:20:00+00:00,2018-01-14 13:25:00+00:00,14.99,EUR
+CGN,Cologne,DE,50.8659,7.14274,MLA,Malta,MT,35.8575,14.4775,2018-01-23 10:40:00+00:00,2018-01-23 13:30:00+00:00,14.99,EUR
+FRA,Frankfurt International,DE,50.02,8.3414,GLA,Glasgow,GB,55.67194,-4.43306,2018-01-10 06:45:00+00:00,2018-01-10 07:45:00+00:00,9.99,EUR
+FRA,Frankfurt International,DE,50.02,8.3414,KRK,Krakow,PL,50.0777,19.7848,2018-01-10 11:05:00+00:00,2018-01-10 12:40:00+00:00,9.99,EUR
+FRA,Frankfurt International,DE,50.02,8.3414,STN,London Stansted,GB,51.885,0.235,2018-01-24 07:00:00+00:00,2018-01-24 07:35:00+00:00,9.99,EUR
+FRA,Frankfurt International,DE,50.02,8.3414,MAN,Manchester,GB,53.3537,-2.27495,2018-01-15 13:55:00+00:00,2018-01-15 14:50:00+00:00,9.99,EUR
+FRA,Frankfurt International,DE,50.02,8.3414,BGY,Milan Bergamo,IT,45.6739,9.70417,2018-01-15 18:30:00+00:00,2018-01-15 19:50:00+00:00,9.99,EUR
+FRA,Frankfurt International,DE,50.02,8.3414,PSA,Pisa,IT,43.6839,10.3927,2018-01-16 14:55:00+00:00,2018-01-16 16:25:00+00:00,9.99,EUR
+FRA,Frankfurt International,DE,50.02,8.3414,TLS,Toulouse,FR,43.6044,1.4439,2018-01-10 14:30:00+00:00,2018-01-10 16:15:00+00:00,9.99,EUR
+FRA,Frankfurt International,DE,50.02,8.3414,TSF,Venice Treviso,IT,45.6484,12.1944,2018-01-10 13:45:00+00:00,2018-01-10 15:05:00+00:00,9.99,EUR
+FRA,Frankfurt International,DE,50.02,8.3414,VLC,Valencia,ES,39.4893,-0.481625,2018-01-10 17:05:00+00:00,2018-01-10 19:25:00+00:00,12.99,EUR
+FRA,Frankfurt International,DE,50.02,8.3414,BDS,Brindisi,IT,40.6576,17.947,2018-01-13 11:25:00+00:00,2018-01-13 13:35:00+00:00,14.7,EUR
+FRA,Frankfurt International,DE,50.02,8.3414,FAO,Faro,PT,37.0144,-7.96591,2018-01-11 15:30:00+00:00,2018-01-11 17:55:00+00:00,14.99,EUR
+FRA,Frankfurt International,DE,50.02,8.3414,OPO,Porto,PT,41.2481,-8.68139,2018-01-10 06:30:00+00:00,2018-01-10 08:20:00+00:00,14.99,EUR
+FRA,Frankfurt International,DE,50.02,8.3414,BCN,Barcelona,ES,41.2971,2.07846,2018-01-15 17:30:00+00:00,2018-01-15 19:50:00+00:00,16.99,EUR
+FRA,Frankfurt International,DE,50.02,8.3414,LIS,Lisbon,PT,38.7813,-9.13592,2018-01-14 06:55:00+00:00,2018-01-14 09:00:00+00:00,16.99,EUR
+FRA,Frankfurt International,DE,50.02,8.3414,MAD,Madrid,ES,40.4936,-3.56676,2018-01-10 16:40:00+00:00,2018-01-10 19:15:00+00:00,16.99,EUR
+FRA,Frankfurt International,DE,50.02,8.3414,AGP,Malaga,ES,36.6749,-4.49911,2018-01-12 15:30:00+00:00,2018-01-12 18:35:00+00:00,16.99,EUR
+KRK,Krakow,PL,50.0777,19.7848,SXF,Berlin Schönefeld,DE,52.38,13.5225,2018-01-16 09:50:00+00:00,2018-01-16 11:05:00+00:00,19.0,PLN
+KRK,Krakow,PL,50.0777,19.7848,NUE,Nuremberg,DE,49.4987,11.0669,2018-01-15 08:50:00+00:00,2018-01-15 10:15:00+00:00,19.0,PLN
+KRK,Krakow,PL,50.0777,19.7848,GDN,Gdansk,PL,54.3776,18.4662,2018-01-17 19:35:00+00:00,2018-01-17 20:45:00+00:00,25.0,PLN
+KRK,Krakow,PL,50.0777,19.7848,MMX,Malmo,SE,55.5363,13.3762,2018-01-16 10:00:00+00:00,2018-01-16 11:35:00+00:00,34.0,PLN
+KRK,Krakow,PL,50.0777,19.7848,DTM,Dortmund,DE,51.5183,7.61224,2018-01-21 06:30:00+00:00,2018-01-21 08:15:00+00:00,39.0,PLN
+KRK,Krakow,PL,50.0777,19.7848,FRA,Frankfurt International,DE,50.02,8.3414,2018-01-18 13:05:00+00:00,2018-01-18 14:40:00+00:00,39.0,PLN
+KRK,Krakow,PL,50.0777,19.7848,GOT,Göteborg Landvetter,SE,57.6741,12.2925,2018-01-18 19:20:00+00:00,2018-01-18 21:15:00+00:00,39.0,PLN
+KRK,Krakow,PL,50.0777,19.7848,TRF,Oslo Torp,NO,59.1867,10.2586,2018-01-24 12:15:00+00:00,2018-01-24 14:25:00+00:00,39.0,PLN
+KRK,Krakow,PL,50.0777,19.7848,PRG,Prague,CZ,50.1008,14.26,2018-01-14 13:50:00+00:00,2018-01-14 14:55:00+00:00,39.0,PLN
+KRK,Krakow,PL,50.0777,19.7848,NYO,Stockholm Skavsta,SE,58.7886,16.9122,2018-01-18 09:05:00+00:00,2018-01-18 10:55:00+00:00,39.0,PLN
+KRK,Krakow,PL,50.0777,19.7848,GRO,Barcelona Girona,ES,41.901,2.76055,2018-01-16 17:15:00+00:00,2018-01-16 19:55:00+00:00,56.0,PLN
+KRK,Krakow,PL,50.0777,19.7848,CRL,Brussels Charleroi,BE,50.4592,4.45382,2018-01-18 09:10:00+00:00,2018-01-18 11:15:00+00:00,56.0,PLN
+KRK,Krakow,PL,50.0777,19.7848,EIN,Eindhoven,NL,51.4501,5.37453,2018-01-16 16:10:00+00:00,2018-01-16 18:10:00+00:00,56.0,PLN
+KRK,Krakow,PL,50.0777,19.7848,BVA,Paris Beauvais,FR,49.4544,2.11278,2018-01-21 06:55:00+00:00,2018-01-21 09:15:00+00:00,56.0,PLN
+KRK,Krakow,PL,50.0777,19.7848,PSA,Pisa,IT,43.6839,10.3927,2018-01-22 21:50:00+00:00,2018-01-22 23:50:00+00:00,56.0,PLN
+KRK,Krakow,PL,50.0777,19.7848,TSF,Venice Treviso,IT,45.6484,12.1944,2018-01-24 15:35:00+00:00,2018-01-24 17:10:00+00:00,56.0,PLN
+WAW,Warsaw Chopin,PL,52.1657,20.9671,SZZ,Szczecin,PL,53.5847,14.9022,2018-01-30 19:40:00+00:00,2018-01-30 20:55:00+00:00,19.0,PLN
+LEJ,Leipzig,DE,51.4324,12.2416,STN,London Stansted,GB,51.885,0.235,2018-01-10 21:05:00+00:00,2018-01-10 21:55:00+00:00,9.99,EUR
+BRE,Bremen,DE,53.0475,8.78667,VDA,Eilat,IL,29.9402,34.9358,2018-01-12 06:30:00+00:00,2018-01-12 12:00:00+00:00,9.99,EUR
+BRE,Bremen,DE,53.0475,8.78667,FEZ,Fez,MA,33.9273,-4.97796,2018-01-13 19:05:00+00:00,2018-01-13 21:40:00+00:00,9.99,EUR
+BRE,Bremen,DE,53.0475,8.78667,STN,London Stansted,GB,51.885,0.235,2018-01-10 21:40:00+00:00,2018-01-10 22:10:00+00:00,9.99,EUR
+BRE,Bremen,DE,53.0475,8.78667,AGP,Malaga,ES,36.6749,-4.49911,2018-01-13 10:50:00+00:00,2018-01-13 14:10:00+00:00,14.99,EUR
+BRE,Bremen,DE,53.0475,8.78667,VNO,Vilnius,LT,54.6341,25.2858,2018-01-17 18:10:00+00:00,2018-01-17 21:05:00+00:00,14.99,EUR
+BRE,Bremen,DE,53.0475,8.78667,RIX,Riga,LV,56.9236,23.9711,2018-01-10 10:45:00+00:00,2018-01-10 13:35:00+00:00,16.99,EUR
+BRE,Bremen,DE,53.0475,8.78667,ALC,Alicante,ES,38.2822,-0.558156,2018-01-22 20:10:00+00:00,2018-01-22 23:05:00+00:00,25.59,EUR
+BRE,Bremen,DE,53.0475,8.78667,PMI,Mallorca,ES,39.5517,2.73881,2018-01-21 12:40:00+00:00,2018-01-21 15:15:00+00:00,36.89,EUR
+BRE,Bremen,DE,53.0475,8.78667,FUE,Fuerteventura,ES,28.4527,-13.8638,2018-01-28 12:10:00+00:00,2018-01-28 15:55:00+00:00,38.69,EUR
+BRE,Bremen,DE,53.0475,8.78667,TFS,Tenerife South,ES,28.0445,-16.5725,2018-01-20 11:20:00+00:00,2018-01-20 15:25:00+00:00,64.99,EUR
+NRN,Dusseldorf Weeze,DE,51.6024,6.14217,OMR,Oradea,RO,47.0252991,21.9025002,2018-01-11 07:40:00+00:00,2018-01-11 10:50:00+00:00,2.99,EUR
+NRN,Dusseldorf Weeze,DE,51.6024,6.14217,TSR,Timisoara,RO,45.81,21.3381,2018-01-10 11:55:00+00:00,2018-01-10 15:05:00+00:00,7.99,EUR
+NRN,Dusseldorf Weeze,DE,51.6024,6.14217,BGY,Milan Bergamo,IT,45.6739,9.70417,2018-01-10 10:15:00+00:00,2018-01-10 11:50:00+00:00,9.79,EUR
+NRN,Dusseldorf Weeze,DE,51.6024,6.14217,EDI,Edinburgh,GB,55.95,-3.3725,2018-01-11 17:00:00+00:00,2018-01-11 17:40:00+00:00,9.99,EUR
+NRN,Dusseldorf Weeze,DE,51.6024,6.14217,VDA,Eilat,IL,29.9402,34.9358,2018-01-12 13:05:00+00:00,2018-01-12 18:40:00+00:00,9.99,EUR
+NRN,Dusseldorf Weeze,DE,51.6024,6.14217,FEZ,Fez,MA,33.9273,-4.97796,2018-01-11 13:05:00+00:00,2018-01-11 15:25:00+00:00,9.99,EUR
+NRN,Dusseldorf Weeze,DE,51.6024,6.14217,STN,London Stansted,GB,51.885,0.235,2018-01-14 10:10:00+00:00,2018-01-14 10:30:00+00:00,9.99,EUR
+NRN,Dusseldorf Weeze,DE,51.6024,6.14217,INI,Nis,RS,43.3372,21.8536,2018-01-11 17:25:00+00:00,2018-01-11 19:50:00+00:00,9.99,EUR
+NRN,Dusseldorf Weeze,DE,51.6024,6.14217,VLC,Valencia,ES,39.4893,-0.481625,2018-01-10 17:00:00+00:00,2018-01-10 19:30:00+00:00,9.99,EUR
+NRN,Dusseldorf Weeze,DE,51.6024,6.14217,ALC,Alicante,ES,38.2822,-0.558156,2018-01-14 07:20:00+00:00,2018-01-14 10:00:00+00:00,12.99,EUR
+NRN,Dusseldorf Weeze,DE,51.6024,6.14217,AGP,Malaga,ES,36.6749,-4.49911,2018-01-14 15:00:00+00:00,2018-01-14 18:00:00+00:00,12.99,EUR
+NRN,Dusseldorf Weeze,DE,51.6024,6.14217,BRI,Bari,IT,41.1389,16.7606,2018-01-15 07:00:00+00:00,2018-01-15 09:20:00+00:00,14.7,EUR
+NRN,Dusseldorf Weeze,DE,51.6024,6.14217,RAK,Marrakesh,MA,31.6069,-8.0363,2018-01-17 14:40:00+00:00,2018-01-17 17:30:00+00:00,14.99,EUR
+NRN,Dusseldorf Weeze,DE,51.6024,6.14217,FAO,Faro,PT,37.0144,-7.96591,2018-01-15 19:10:00+00:00,2018-01-15 21:15:00+00:00,16.99,EUR
+NRN,Dusseldorf Weeze,DE,51.6024,6.14217,NDR,Nador,MA,34.9888,-3.02821,2018-01-24 07:00:00+00:00,2018-01-24 09:10:00+00:00,16.99,EUR
+NRN,Dusseldorf Weeze,DE,51.6024,6.14217,RBA,Rabat,MA,34.0515,-6.75152,2018-01-12 16:10:00+00:00,2018-01-12 18:30:00+00:00,16.99,EUR
+POZ,Poznan,PL,52.421,16.8263,VDA,Eilat,IL,29.9402,34.9358,2018-01-12 07:55:00+00:00,2018-01-12 13:10:00+00:00,33.0,PLN
+POZ,Poznan,PL,52.421,16.8263,STN,London Stansted,GB,51.885,0.235,2018-01-23 07:00:00+00:00,2018-01-23 08:10:00+00:00,39.0,PLN
+POZ,Poznan,PL,52.421,16.8263,MAD,Madrid,ES,40.4936,-3.56676,2018-01-15 09:55:00+00:00,2018-01-15 13:15:00+00:00,56.0,PLN
+POZ,Poznan,PL,52.421,16.8263,BRS,Bristol,GB,51.3827,-2.71909,2018-01-24 15:25:00+00:00,2018-01-24 16:45:00+00:00,65.0,PLN
+POZ,Poznan,PL,52.421,16.8263,EDI,Edinburgh,GB,55.95,-3.3725,2018-01-29 07:00:00+00:00,2018-01-29 08:25:00+00:00,95.2,PLN
+POZ,Poznan,PL,52.421,16.8263,MLA,Malta,MT,35.8575,14.4775,2018-01-22 19:45:00+00:00,2018-01-22 22:35:00+00:00,111.2,PLN
+POZ,Poznan,PL,52.421,16.8263,TLV,Tel Aviv,IL,32.0034,34.5258,2018-01-28 15:15:00+00:00,2018-01-28 20:10:00+00:00,119.2,PLN
+POZ,Poznan,PL,52.421,16.8263,LPL,Liverpool,GB,53.3336,-2.84972,2018-01-27 10:40:00+00:00,2018-01-27 12:05:00+00:00,125.1,PLN
+POZ,Poznan,PL,52.421,16.8263,ALC,Alicante,ES,38.2822,-0.558156,2018-01-18 12:00:00+00:00,2018-01-18 15:15:00+00:00,143.2,PLN
+POZ,Poznan,PL,52.421,16.8263,DUB,Dublin,IE,53.4213,-6.27007,2018-01-26 13:35:00+00:00,2018-01-26 15:15:00+00:00,239.0,PLN
+GDN,Gdansk,PL,54.3776,18.4662,AAR,Aarhus,DK,56.3,10.619,2018-01-11 14:45:00+00:00,2018-01-11 16:05:00+00:00,5.0,PLN
+GDN,Gdansk,PL,54.3776,18.4662,TRF,Oslo Torp,NO,59.1867,10.2586,2018-01-19 19:15:00+00:00,2018-01-19 20:50:00+00:00,5.0,PLN
+GDN,Gdansk,PL,54.3776,18.4662,NYO,Stockholm Skavsta,SE,58.7886,16.9122,2018-01-12 15:45:00+00:00,2018-01-12 17:00:00+00:00,19.0,PLN
+GDN,Gdansk,PL,54.3776,18.4662,VXO,Växjö Småland,SE,56.9291,14.728,2018-01-12 16:15:00+00:00,2018-01-12 17:20:00+00:00,19.0,PLN
+GDN,Gdansk,PL,54.3776,18.4662,KRK,Krakow,PL,50.0777,19.7848,2018-01-17 21:10:00+00:00,2018-01-17 22:20:00+00:00,25.0,PLN
+GDN,Gdansk,PL,54.3776,18.4662,WRO,Wroclaw,PL,51.1027,16.8858,2018-01-16 11:20:00+00:00,2018-01-16 12:25:00+00:00,25.0,PLN
+GDN,Gdansk,PL,54.3776,18.4662,VDA,Eilat,IL,29.9402,34.9358,2018-01-11 09:35:00+00:00,2018-01-11 14:55:00+00:00,39.0,PLN
+GDN,Gdansk,PL,54.3776,18.4662,STN,London Stansted,GB,51.885,0.235,2018-01-23 22:20:00+00:00,2018-01-23 23:40:00+00:00,39.0,PLN
+GDN,Gdansk,PL,54.3776,18.4662,BGY,Milan Bergamo,IT,45.6739,9.70417,2018-01-16 09:10:00+00:00,2018-01-16 11:15:00+00:00,65.0,PLN
+GDN,Gdansk,PL,54.3776,18.4662,TLV,Tel Aviv,IL,32.0034,34.5258,2018-01-12 06:05:00+00:00,2018-01-12 11:10:00+00:00,69.0,PLN
+GDN,Gdansk,PL,54.3776,18.4662,LBA,Leeds Bradford,GB,53.8659,-1.66057,2018-01-17 13:10:00+00:00,2018-01-17 14:35:00+00:00,111.2,PLN
+GDN,Gdansk,PL,54.3776,18.4662,MAN,Manchester,GB,53.3537,-2.27495,2018-01-30 16:45:00+00:00,2018-01-30 18:15:00+00:00,111.2,PLN
+GDN,Gdansk,PL,54.3776,18.4662,BFS,Belfast International,GB,54.6575,-6.2158,2018-01-31 17:20:00+00:00,2018-01-31 19:00:00+00:00,127.2,PLN
+GDN,Gdansk,PL,54.3776,18.4662,MLA,Malta,MT,35.8575,14.4775,2018-01-18 20:00:00+00:00,2018-01-18 23:15:00+00:00,191.2,PLN
+GDN,Gdansk,PL,54.3776,18.4662,EDI,Edinburgh,GB,55.95,-3.3725,2018-01-20 06:35:00+00:00,2018-01-20 08:05:00+00:00,209.0,PLN
+GDN,Gdansk,PL,54.3776,18.4662,BRS,Bristol,GB,51.3827,-2.71909,2018-01-12 10:30:00+00:00,2018-01-12 12:05:00+00:00,249.0,PLN
+HHN,Frankfurt Hahn,DE,49.9487,7.26389,STN,London Stansted,GB,51.885,0.235,2018-01-16 06:45:00+00:00,2018-01-16 07:10:00+00:00,4.99,EUR
+HHN,Frankfurt Hahn,DE,49.9487,7.26389,TSF,Venice Treviso,IT,45.6484,12.1944,2018-01-10 06:55:00+00:00,2018-01-10 08:15:00+00:00,4.99,EUR
+HHN,Frankfurt Hahn,DE,49.9487,7.26389,PSA,Pisa,IT,43.6839,10.3927,2018-01-13 10:25:00+00:00,2018-01-13 12:00:00+00:00,7.99,EUR
+HHN,Frankfurt Hahn,DE,49.9487,7.26389,BRI,Bari,IT,41.1389,16.7606,2018-01-11 18:50:00+00:00,2018-01-11 21:00:00+00:00,9.79,EUR
+HHN,Frankfurt Hahn,DE,49.9487,7.26389,SUF,Lamezia,IT,38.9054,16.2423,2018-01-14 21:20:00+00:00,2018-01-14 23:40:00+00:00,9.79,EUR
+HHN,Frankfurt Hahn,DE,49.9487,7.26389,PSR,Pescara,IT,42.4317,14.1811,2018-01-11 12:10:00+00:00,2018-01-11 13:55:00+00:00,9.79,EUR
+HHN,Frankfurt Hahn,DE,49.9487,7.26389,ALC,Alicante,ES,38.2822,-0.558156,2018-01-14 11:30:00+00:00,2018-01-14 14:05:00+00:00,9.99,EUR
+HHN,Frankfurt Hahn,DE,49.9487,7.26389,GRO,Barcelona Girona,ES,41.901,2.76055,2018-01-11 20:10:00+00:00,2018-01-11 22:05:00+00:00,9.99,EUR
+HHN,Frankfurt Hahn,DE,49.9487,7.26389,VDA,Eilat,IL,29.9402,34.9358,2018-01-11 08:00:00+00:00,2018-01-11 13:20:00+00:00,9.99,EUR
+HHN,Frankfurt Hahn,DE,49.9487,7.26389,FAO,Faro,PT,37.0144,-7.96591,2018-01-13 07:05:00+00:00,2018-01-13 09:10:00+00:00,9.99,EUR
+HHN,Frankfurt Hahn,DE,49.9487,7.26389,XRY,Jerez,ES,36.7446,-6.06011,2018-01-11 16:35:00+00:00,2018-01-11 19:35:00+00:00,9.99,EUR
+HHN,Frankfurt Hahn,DE,49.9487,7.26389,KIR,Kerry,IE,52.1809,-9.52378,2018-01-15 10:25:00+00:00,2018-01-15 11:35:00+00:00,9.99,EUR
+HHN,Frankfurt Hahn,DE,49.9487,7.26389,LIS,Lisbon,PT,38.7813,-9.13592,2018-01-10 10:25:00+00:00,2018-01-10 12:25:00+00:00,9.99,EUR
+HHN,Frankfurt Hahn,DE,49.9487,7.26389,AGP,Malaga,ES,36.6749,-4.49911,2018-01-11 07:00:00+00:00,2018-01-11 09:55:00+00:00,9.99,EUR
+HHN,Frankfurt Hahn,DE,49.9487,7.26389,PMI,Mallorca,ES,39.5517,2.73881,2018-01-10 06:30:00+00:00,2018-01-10 08:35:00+00:00,9.99,EUR
+HHN,Frankfurt Hahn,DE,49.9487,7.26389,PDV,Plovdiv,BG,42.0678,24.8508,2018-01-12 17:40:00+00:00,2018-01-12 21:10:00+00:00,9.99,EUR

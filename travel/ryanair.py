@@ -5,7 +5,9 @@
 
 # encoding: utf-8
 import json
+from collections import OrderedDict
 
+import iso8601
 import scrapy
 from datetime import datetime
 
@@ -17,7 +19,7 @@ DAY_FROM = 1
 DAY_TO = 31
 
 AIRPORTS_URL = 'https://api.ryanair.com/aggregate/3/common?embedded=airports&market=en-gb'
-ONEWAY_FARE_URL = 'https://api.ryanair.com/farefinder/3/oneWayFares?&departureAirportIataCode={airport}&language=en&limit=16&market=en-gb&offset=0&outboundDepartureDateFrom={year}-{month}-{day_from}&outboundDepartureDateTo={year}-{month}-{day_to}&priceValueTo=150'
+ONEWAY_FARE_URL = 'https://api.ryanair.com/farefinder/3/oneWayFares?&departureAirportIataCode={airport}&language=en&limit=16&market=en-gb&offset=0&outboundDepartureDateFrom={year}-{month}-{day_from}&outboundDepartureDateTo={year}-{month}-{day_to}&priceValueTo=300'
 
 
 class RyanairSpider(scrapy.Spider):
@@ -27,9 +29,9 @@ class RyanairSpider(scrapy.Spider):
 
     def parse(self, response):
         jsonresponse = json.loads(response.body_as_unicode())
+        airports = self._airport_mapping(jsonresponse)
         for item in jsonresponse['airports']:
             if item['countryCode'].upper() not in STATES:
-                print(item)
                 continue
             yield scrapy.Request(
                 ONEWAY_FARE_URL.format(
@@ -43,11 +45,18 @@ class RyanairSpider(scrapy.Spider):
                 meta={
                     'origin_airport': item['iataCode'],
                     'origin_title': item['name'],
-                    'origin_state': item['countryCode'],
+                    'origin_state': item['countryCode'].upper(),
                     'origin_lat': item['coordinates']['latitude'],
                     'origin_lon': item['coordinates']['longitude'],
+                    'airports': airports,
                 }
             )
+
+    def _airport_mapping(self, jsonresponse):
+        return {
+            ap['iataCode']: ap
+            for ap in jsonresponse['airports']
+        }
 
     def fares(self, response):
         jsonresponse = json.loads(response.body_as_unicode())
@@ -56,12 +65,26 @@ class RyanairSpider(scrapy.Spider):
                 continue
             item = item['outbound']
             meta = response.meta.copy()
+            airport = response.meta['airports'][item['arrivalAirport']['iataCode']]
             meta.update({
                 'destination_airport': item['arrivalAirport']['iataCode'],
                 'destination_title': item['arrivalAirport']['name'],
-                'destination_state': item['arrivalAirport']['countryName'],
+                'destination_state': airport['countryCode'].upper(),
+                'destination_lat': airport['coordinates']['latitude'],
+                'destination_lon': airport['coordinates']['longitude'],
                 'price': item['price']['value'],
-                'departureDate': item['departureDate'],
+                'currencyCode': item['price']['currencyCode'],
+                'departureDate': iso8601.parse_date(item['departureDate']),
+                'arrivalDate': iso8601.parse_date(item['arrivalDate']),
             })
 
-            yield meta
+            yield OrderedDict([
+                (key, meta[key])
+                for key in [
+                    'origin_airport', 'origin_title', 'origin_state', 'origin_lat', 'origin_lon',
+                    'destination_airport', 'destination_title', 'destination_state',
+                    'destination_lat', 'destination_lon',
+                    'departureDate', 'arrivalDate',
+                    'price', 'currencyCode',
+                ]
+            ])

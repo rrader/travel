@@ -1,6 +1,8 @@
 # encoding: utf-8
 import json
+from collections import OrderedDict
 
+import dateutil.parser
 import scrapy
 from datetime import datetime
 
@@ -11,14 +13,18 @@ UAH = 31
 YEAR = 2018
 MONTH = 1
 
-ORIGIN_URL = 'https://booking.ecolines.net/ajax/origins?locale=ru'
-DEST_URL = 'https://booking.ecolines.net/ajax/destinations?locale=ru&origin={orig}'
+ORIGIN_URL = 'https://booking.ecolines.net/ajax/origins?locale=en'
+DEST_URL = 'https://booking.ecolines.net/ajax/destinations?locale=en&origin={orig}'
 DATES_URL = 'https://booking.ecolines.net/ajax/dates?origin={orig}&destination={dest}&year={year}&month={month}'
-BOOKING = 'https://booking.ecolines.net/search/result?locale=ru&currency={currency}&returnOrigin={dest}&returnDestination={orig}&returning=0&type=0&outwardOrigin={orig}&outwardDestination={dest}&outwardDate={date}&adults=1&children=0&teens=0&seniors=0'
+BOOKING = 'https://booking.ecolines.net/search/result?locale=en&currency={currency}&returnOrigin={dest}&returnDestination={orig}&returning=0&type=0&outwardOrigin={orig}&outwardDestination={dest}&outwardDate={date}&adults=1&children=0&teens=0&seniors=0'
 
 ORIGIN = '#ecolines-booking-form-origin option'
 VALUE = 'option ::attr(value)'
 PRICE = '.journey .btn-primary span:not(.btn-label) ::text'
+DEPARTURE_TIME = '.journey .origin .time ::text'
+DEPARTURE_DATE = '.journey .origin .date ::text'
+DESTINATION_TIME = '.journey .destination .time ::text'
+DESTINATION_DATE = '.journey .destination .date ::text'
 
 
 class EcolinesSpider(scrapy.Spider):
@@ -97,10 +103,29 @@ class EcolinesSpider(scrapy.Spider):
         data = response.css(PRICE).extract()
         if data:
             price = data[0]
+            departure_time = response.css(DEPARTURE_TIME).extract()[0]
+            departure_date = response.css(DEPARTURE_DATE).extract()[0]
+            arrival_time = response.css(DESTINATION_TIME).extract()[0]
+            arrival_date = response.css(DESTINATION_DATE).extract()[0]
+
+            departure_dt = dateutil.parser.parse('{} {}'.format(departure_date, departure_time))
+            arrival_dt = dateutil.parser.parse('{} {}'.format(arrival_date, arrival_time))
 
             meta = response.meta.copy()
             meta.update({
                 'price': price,
+                'departureDate': departure_dt,
+                'arrivalDate': arrival_dt,
+                'currencyCode': meta['currency'],
             })
 
-            yield meta
+            yield OrderedDict([
+                (key, meta[key])
+                for key in [
+                    'origin_id', 'origin_title', 'origin_state', 'origin_lat', 'origin_lon',
+                    'destination_id', 'destination_title', 'destination_state',
+                    'destination_lat', 'destination_lon',
+                    'departureDate', 'arrivalDate',
+                    'price', 'currencyCode',
+                ]
+            ])
